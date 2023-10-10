@@ -39,13 +39,13 @@
                     <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
              </div>
-             <div class="swiper-button-next"> 
+             <div class="swiper-button-next d-md-block d-none"> 
                <span class="d-inline-flex navIcon">
                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
    
                </span> 
                </div>
-               <div class="swiper-button-prev">
+               <div class="swiper-button-prev d-md-block d-none">
                <span class="d-inline-flex navIcon">
                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
    
