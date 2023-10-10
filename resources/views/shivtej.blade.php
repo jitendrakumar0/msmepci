@@ -16,7 +16,7 @@
 
 <div class="heroSection container-fluid px-0">
     <div class="row">
-      <div class="col-12 pe-0">
+      <div class="col-12 ">
         <div class="swiper mySwiper heroSwiper position-relative">
           <div class="swiper-wrapper">
             <div class="swiper-slide swiperSlider">
@@ -50,9 +50,11 @@
                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
    
                </span> 
+
                </div>
+               
+          <div class="swiper-pagination dotsarrow text-center rounded-pill py-2 mx-auto swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -77,10 +79,10 @@
         el: ".swiper-pagination",
         clickable: true,
       },
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
+    //   autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    //   },
     });
   </script>
 
