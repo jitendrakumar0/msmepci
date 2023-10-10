@@ -1,0 +1,126 @@
+.navbar {
+    & .navlogo {
+        height: 40px;
+        @include sm {
+            height: 50px;
+        }
+        @include md {
+            height: 55px;
+        }
+    }
+    & .menubtn {
+        height: 19px;
+        width: 19px;
+        & img {
+        }
+    }
+    & .navoffcanvas {
+        width: 300px;
+        & .offcanvaslogo {
+            height: 30px;
+        }
+        & .btnclose {
+            background: none;
+            height:12px;
+            width: 12px;
+            @include sm {
+                height:13px;
+                width: 13px;
+            }
+            @include md {
+                height:14px;
+                width: 14px;
+            }
+        }
+        & .navbaritem {
+            gap: 0;
+            @include sm {
+                gap: 5px;
+            }
+            @include xl {
+                gap: 25px;
+            }
+            @include xxl {
+                gap: 25px;
+            }
+            & .navbarlink {
+                font-size: 13px;
+                color: $black;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: $warning;
+                }
+                &.active {
+                    color: $warning;
+                }
+                @include sm {
+                    font-size: 14px;
+                }
+                @include md {
+                    font-size: 14px;
+                }
+                @include xl {
+                    font-size: 15px;
+                }
+                @include xxl {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    &.activenavbar {
+        background-color: $white;
+        top: 0;
+        position: fixed;
+        animation: fixedAnim 1s forwards;
+        -webkit-box-shadow: 0 12px 6px rgba($black, 0.06);
+        -moz-box-shadow: 0 12px 6px rgba($black, 0.06);
+        box-shadow: 0 6px 6px rgba($black, 0.06);
+        & .menubtn {
+            & img {
+                filter: none;
+            }
+        }
+        @keyframes fixedAnim {
+            from {
+                top: -50px;
+            }
+        
+            to {
+                top: 0;
+            }
+        }
+        @include lg {
+            .navbaritem {
+                & .navbarlink {
+                    color: $black;
+                    &:hover {
+                        color: $warning;
+                    }
+                    &.active {
+                        color: $warning;
+                    }
+                }
+            }
+            .commonbtn {
+                background-color: $black;
+                color: $white;
+            }
+        }
+        & .commonbtn {
+            background-color: $black;
+            color: $white;
+        }
+    }
+    & .navbarimages {
+        flex-grow: 1;
+        margin-right: 15px;
+        @include xl {
+            flex-grow: 0;
+            margin-right: 0;
+        }
+        & .navimg {
+            height: 45px;
+        }
+    }
+}

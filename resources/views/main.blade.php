@@ -22,7 +22,7 @@
         </main>
         {{-- @include('layouts.footer') --}}
         @stack('scripts')
-        <script src="{{asset('/public')}}/assets/libs/js/bootstrap.bundle.min.js"></script>
+        <script src="{{asset('/public')}}/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="{{asset('/public')}}/assets/libs/swiper/swiper-bundle.min.js"></script>
     </body>
 </html>
