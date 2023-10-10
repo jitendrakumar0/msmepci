@@ -20,16 +20,24 @@
         <div class="swiper mySwiper heroSwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide swiperSlider">
-             <div class="sliderImg"><img src="assets/img/herosection/01-2.png" alt="herosection" class="img-fluid w-100  h-100"> </div>
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
             </div>
             <div class="swiper-slide swiperSlider">
-              <div class="sliderImg"><img src="assets/img/herosection/02-1.png" alt="herosection" class="img-fluid w-100  h-100"> </div>
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
              </div>
              <div class="swiper-slide swiperSlider">
-              <div class="sliderImg"><img src="assets/img/herosection/03-1.png" alt="herosection" class="img-fluid w-100  h-100"> </div>
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
              </div>
              <div class="swiper-slide swiperSlider">
-              <div class="sliderImg"><img src="assets/img/herosection/04-1.png" alt="herosection" class="img-fluid w-100  h-100"> </div>
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
              </div>
           </div>
           <div class="swiper-button-next"> <span class="d-inline-flex navIcon"><img src="assets/img/herosection/leftarrownav.png" alt=""></span> </div>
