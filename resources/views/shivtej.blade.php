@@ -16,8 +16,8 @@
 
 <div class="heroSection container-fluid px-0">
     <div class="row">
-      <div class="col-12">
-        <div class="swiper mySwiper heroSwiper">
+      <div class="col-12 pe-0">
+        <div class="swiper mySwiper heroSwiper position-relative">
           <div class="swiper-wrapper">
             <div class="swiper-slide swiperSlider">
                 <div class="sliderImg">
@@ -39,9 +39,19 @@
                     <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
              </div>
+             <div class="swiper-button-next"> 
+               <span class="d-inline-flex navIcon">
+                   <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+   
+               </span> 
+               </div>
+               <div class="swiper-button-prev">
+               <span class="d-inline-flex navIcon">
+                   <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+   
+               </span> 
+               </div>
           </div>
-          <div class="swiper-button-next"> <span class="d-inline-flex navIcon"><img src="assets/img/herosection/leftarrownav.png" alt=""></span> </div>
-          <div class="swiper-button-prev"><span class="d-inline-flex navIcon"><img src="assets/img/herosection/rightarrownav.png" alt=""></span> </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
@@ -66,6 +76,10 @@
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
       },
     });
   </script>
