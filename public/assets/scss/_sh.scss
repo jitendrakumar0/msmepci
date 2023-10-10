@@ -1,0 +1,135 @@
+.heroSection {
+    & .heroSwiper {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        &:hover{
+          & .swiper-button-next{
+            opacity: 1;
+            visibility: visible;
+       
+          }
+          & .swiper-button-prev{
+              opacity: 1;
+              visibility: visible;
+          }
+        }
+    & .swiperSlider {
+          background-position: center;
+          background-size: cover;
+          transition: all 0.3s ease-in-out;
+          height: 220px;
+          @include md{
+            height: 350px;
+          }
+          
+          @include lg{
+              height: 410px;
+
+          }
+          & .sliderImg{
+            height: 100%;
+      
+            & img{
+               
+            }
+          }
+        }
+         .swiper-button-next{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.945);
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+            visibility: hidden;
+            @include sm{
+                width: 50px;
+                height: 50px;
+            }
+            @include lg{
+            border-radius: 10px;
+
+                width: 55px;
+                height: 55px;
+            }
+            &:hover{
+                background-color: $theme2;
+            }
+
+             .navIcon{
+                padding: 10px;
+                width: 40px;
+                height: 40px;
+                border-radius: 8px;
+                @include sm{
+                    width: 50px;
+                    height: 50px;
+                }
+                @include lg{
+                border-radius: 10px;
+
+                    width: 55px;
+                    height: 55px;
+                }
+           
+
+            }
+        }
+        & .swiper-button-prev{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.945);
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px;
+            overflow: 0;
+            visibility: hidden;
+            @include sm{
+                width: 50px;
+                height: 50px;
+            }
+            @include lg{
+                width: 55px;
+                height: 55px;
+            }
+            &:hover{
+                background-color: $theme2;
+            }
+
+            & .navIcon{
+                padding: 10px;
+                width: 40px;
+                height: 40px;
+              
+                @include sm{
+                    width: 50px;
+                    height: 50px;
+                }
+                @include lg{
+                    width: 55px;
+                    height: 55px;
+                }
+           
+
+            }
+        }
+    }
+  
+    
+}
