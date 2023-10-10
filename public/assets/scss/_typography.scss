@@ -1,0 +1,159 @@
+.heading {
+    font-size: calc(14 * $heading-fs);
+
+    @include xs {
+        font-size: calc(16 * $heading-fs);
+    }
+
+    @include sm {
+        font-size: calc(18 * $heading-fs);
+    }
+
+    @include md {
+        font-size: calc(20 * $heading-fs);
+    }
+
+    @include lg {
+        font-size: calc(22 * $heading-fs);
+    }
+
+    @include xl {
+        font-size: calc(24 * $heading-fs);
+    }
+
+    @include xxl {
+        font-size: calc(26 * $heading-fs);
+    }
+
+    @include xxxl {
+        font-size: calc(28 * $heading-fs);
+    }
+}
+
+.title {
+    font-size: calc(11 * $title-fs);
+
+    @include xs {
+        font-size: calc(12 * $title-fs);
+    }
+
+    @include sm {
+        font-size: calc(14 * $title-fs);
+    }
+
+    @include md {
+        font-size: calc(15 * $title-fs);
+    }
+
+    @include lg {
+        font-size: calc(16 * $title-fs);
+    }
+
+    @include xl {
+        font-size: calc(16 * $title-fs);
+    }
+
+    @include xxl {
+        font-size: calc(17 * $title-fs);
+    }
+
+    @include xxxl {
+        font-size: calc(18 * $title-fs);
+    }
+}
+
+.subTitle {
+    font-size: calc(11 * $sub-title-fs);
+
+    @include xs {
+        font-size: calc(12 * $sub-title-fs);
+    }
+
+    @include sm {
+        font-size: calc(14 * $sub-title-fs);
+    }
+
+    @include md {
+        font-size: calc(15 * $sub-title-fs);
+    }
+
+    @include lg {
+        font-size: calc(16 * $sub-title-fs);
+    }
+
+    @include xl {
+        font-size: calc(16 * $sub-title-fs);
+    }
+
+    @include xxl {
+        font-size: calc(17 * $sub-title-fs);
+    }
+
+    @include xxxl {
+        font-size: calc(18 * $sub-title-fs);
+    }
+}
+
+.content {
+    font-size: calc(12 * $content-fs);
+
+    @include xs {
+        font-size: calc(13 * $content-fs);
+    }
+
+    @include sm {
+        font-size: calc(14 * $content-fs);
+    }
+
+    @include md {
+        font-size: calc(15 * $content-fs);
+    }
+
+    @include lg {
+        font-size: calc(16 * $content-fs);
+    }
+
+    @include xl {
+        font-size: calc(16 * $content-fs);
+    }
+
+    @include xxl {
+        font-size: calc(17 * $content-fs);
+    }
+
+    @include xxxl {
+        font-size: calc(18 * $content-fs);
+    }
+}
+
+.section {
+    @include sectionPadding(15px, 15px, 1);
+
+    @include xs {
+        @include sectionPadding(20px, 20px, 1);
+    }
+
+    @include sm {
+        @include sectionPadding(25px, 25px, 1);
+    }
+
+    @include md {
+        @include sectionPadding(30px, 30px, 1);
+    }
+
+    @include lg {
+        @include sectionPadding(35px, 35px, 1);
+    }
+
+    @include xl {
+        @include sectionPadding(40px, 40px, 1);
+    }
+
+    @include xxl {
+        @include sectionPadding(45px, 45px, 1);
+    }
+
+    @include xxxl {
+        @include sectionPadding(50px, 50px, 1);
+    }
+}
