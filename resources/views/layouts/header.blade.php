@@ -1,7 +1,7 @@
 <nav class="navbar navbarone navbar-expand-xl shadow-sm container-fluid" aria-label="Offcanvas navbar large" id="navbar">
     <div class="container">
         <a class="navbar-brand navlogo d-flex align-items-center justify-content-center" href="javascript:;">
-            <img src="assets/img/msmepc-logo.png" alt="logo" class="h-100 w-100 img-fluid">
+            <img src="{{ url('public/assets/img/navbar/logo')}}" alt="logo" class="h-100 w-100 img-fluid">
         </a>
         <div class="offcanvas offcanvas-start navoffcanvas" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
             <div class="offcanvas-header border-bottom">
@@ -40,13 +40,13 @@
         </div>
         <div class="d-flex align-items-center justify-content-xl-center justify-content-end gap-3 navbarimages">
             <a href="javascript" class="text-decoration-none navimg">
-            <img src="assets/img/topbar1.jpg" alt="india 2023" class="h-100 w-100 img-fluid">
+            <img src="{{ url('public/assets/img/navbar/topbar1.jpg')}}" alt="india 2023" class="h-100 w-100 img-fluid">
             </a>
             <a href="javascript" class="text-decoration-none navimg">
-            <img src="assets/img/topbar2" alt="india 2023" class="h-100 w-100 img-fluid">
+            <img src="{{ url('public/assets/img/navbar/topbar2')}}" alt="india 2023" class="h-100 w-100 img-fluid">
             </a>
             <a href="javascript" class="text-decoration-none navimg">
-            <img src="assets/img/topbar3.png" alt="india 2023" class="h-100 w-100 img-fluid">
+            <img src="{{ url('public/assets/img/navbar/topbar3.png')}}" alt="india 2023" class="h-100 w-100 img-fluid">
             </a>
         </div>
         <div class="d-xl-none d-flex align-items-center">
