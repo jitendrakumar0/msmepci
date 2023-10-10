@@ -1,9 +1,72 @@
 .chairmanSection{
     & .chairmanImg{
-        aspect-ratio: 1/1;
+        aspect-ratio: 11/7;
+        @include md{
+        aspect-ratio: 11/5;
+        }
     }
     & .ChairmanName{
-        font-size: 45px;
+        font-size: 25px;
         font-weight: 600;
+        color: $theme2;
+        @include sm{
+            font-size: 30;
+            margin-bottom: -10px;
+        }
+        @include xl{
+            font-size: 35px;
+            aspect-ratio: 3/2;
+        }
+    }
+    & .position{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: -10px;
+        color: $black;
+        @include sm{
+            font-size: 25px;
+        }
+        @include xl{
+            font-size: 30px;
+        }
+    }
+    & .description{
+        font-size: 16px;
+        color: $black;
+    }
+}
+
+.chairmanTwoSection{
+    & .chairmanImg{
+        aspect-ratio: 3/2;
+        @include md{
+            aspect-ratio: /2;
+        }
+    }
+    & .ChairmanName{
+        font-size: 25px;
+        font-weight: 600;
+        color: $theme1;
+        margin-bottom: -10px;
+        @include sm{
+            font-size: 30;
+        }
+        @include xl{
+            font-size: 35px;
+        }
+    }
+    & .position{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: -10px;
+        @include sm{
+            font-size: 25px;
+        }
+        @include xl{
+            font-size: 30px;
+        }
+    }
+    & .description{
+        font-size: 16px;
     }
 }
