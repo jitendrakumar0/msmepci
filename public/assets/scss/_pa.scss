@@ -57,12 +57,25 @@
 
 .chairmanFluid{
     & .heading{
-        font-size: 25px;
-        font-weight: 700;
+        line-height: 1.2;
+        font-weight: 500;
+        @include sm{
+        }
+        @include md{
+            
+        }
+        @include lg{
+            // font-size: 25px;
+            font-weight: 700;
+        }
+        @include xl{
+            
+        }
+        @include xxl{
+            
+        }
     }
     & .para{
-        font-size: 14px;
-        color: $theme3;
     }
     & .chairmanImg{
         width: 100%;
