@@ -16,50 +16,50 @@
         <div class="row g-3 mx-0">
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">E PARTICIPATION <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">E PARTICIPATION <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMPARK <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMPARK <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">UDHYAM AADHAR <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">UDHYAM AADHAR <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">PMEG E PORTAL <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">PMEG E PORTAL <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12"><a href="javascript:;" class="linksText d-flex align-items-center">CHAMPION SCHEME <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">CHAMPION SCHEME <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
 <div class="container-fluid chairmanFluid bg-light">
     <div class="container">
         <div class="row align-items-center py-5">
-            <div class="col-lg-7 col-12 order-lg-1 order-2">
+            <div class="col-xl-6 col-lg-7 col-12 order-lg-1 order-2">
                 <div class="row">
                     <div class="col-12">
                         <div class="heading mb-3">Dr E Muthuraman Becomes MSMEPC Chairman</div>
@@ -80,10 +80,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
+            <div class="col-xl-6 col-lg-5 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
                 <div class="row">
                     <div class="col-12 chairmanImg">
-                        <img src="{{ url('public/assets/img/chairmanIndex.jpg')}}" alt="">
+                        <img src="{{ url('public/assets/img/chairmanIndex.png')}}" alt="">
                     </div>
                 </div>
             </div>
