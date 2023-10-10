@@ -12,15 +12,6 @@
 
 
 @section('content')
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection
 
 
