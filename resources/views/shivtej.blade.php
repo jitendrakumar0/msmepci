@@ -440,6 +440,101 @@
 
         {{-- contect us page end  --}}
 
+
+
+
+        {{-- what msme section start  --}}
+
+        <div class=" container-fluid whatsMsme">
+            <div class="container">
+                <div class="row align-items-center gap-lg-0 gap-4">
+                    <div class="col-lg-7 order-lg-1 order-2">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="msmeHeading text-lg-start text-center">Manufacturing Enterprises and Enterprises rendering Service</div>
+                            </div>
+                            <div class="col-lg-12 col-12 mb-3 ">     
+                                <div class="border-1 border whatsCard">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="imgWhats">
+                                                <img src="{{ url('public/assets/img/our-mission.webp')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cardHeading">
+                                                Micro
+                                            </div>
+                                            <div class="contentcard mt-2">
+                                                Investment in Plant and Machinery or Equipment:
+                                            </div>
+                                            <div class="contentcard mt-1">
+                                                Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-12 mb-3 ">     
+                                <div class="border-1 border whatsCard">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="imgWhats">
+                                                <img src="{{ url('public/assets/img/our-vision.webp')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cardHeading">
+                                                Small
+                                            </div>
+                                            <div class="contentcard mt-2">
+                                                Investment in Plant and Machinery or Equipment:
+                                            </div>
+                                            <div class="contentcard mt-1">
+                                                Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-12 mb-3 ">     
+                                <div class="border-1 border whatsCard">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto">
+                                            <div class="imgWhats">
+                                                <img src="{{ url('public/assets/img/our-value.webp')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cardHeading">
+                                                Medium
+                                            </div>
+                                            <div class="contentcard mt-2">
+                                                Investment in Plant and Machinery or Equipment:
+                                            </div>
+                                            <div class="contentcard mt-1">
+                                                Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-lg-2 order-1">
+                        <div class="msmeImg mx-auto">
+                            <img src="{{ url('public/assets/img/msme2.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {{-- what msme section end  --}}
+
+
 @endsection
 
 
