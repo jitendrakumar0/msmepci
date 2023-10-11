@@ -167,3 +167,270 @@
   
     
 }
+
+.aboutUs{
+    
+    & .common-heading{
+        position: relative;
+        font-size: 30px;
+        font-weight: 700;
+        color: $theme1;
+        @include md{
+        font-size: 40px;
+
+        }
+
+
+        &::after{
+            content:"";
+            position:absolute;
+            left:0;
+            right:0;
+            bottom:0;
+            height:100%;
+            width:130px;
+            border-bottom:$theme2 solid 1px;
+            margin:auto
+        }
+        &::before{
+                content:""; 
+                position:absolute;
+                left:0;
+                right:0;
+                bottom:-3px;
+                height:100%;
+                width:115px;
+                border-bottom:$theme2 solid 1px;
+                margin:auto
+        }
+        }
+        & .contentPera{
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            color: $black;
+            @include sm{
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+}
+
+ .common-heading{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    color: $theme1;
+    @include md{
+    font-size: 40px;
+
+    }
+
+
+    &::after{
+        content:"";
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        height:100%;
+        width:130px;
+        border-bottom:$theme2 solid 1px;
+        margin:auto
+    }
+    &::before{
+            content:""; 
+            position:absolute;
+            left:0;
+            right:0;
+            bottom:-3px;
+            height:100%;
+            width:115px;
+            border-bottom:$theme2 solid 1px;
+            margin:auto
+    }
+}
+
+    // blog page start 
+.headingSection {
+    height: 45vh;
+    background: url(../img/about-us-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 45px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: $black;
+        opacity: .40;
+    }
+    & .pageheading {
+        font-size: 40px;
+        font-weight: 700;
+        color: $white;
+        @include sm {
+            font-size: 45px;
+        }
+        @include md {
+            font-size: 50px;
+        }
+        @include lg {
+            font-size: 55px;
+        }
+        @include xl {
+            font-size:60px;
+        }
+    }
+    & .headingBreadcrumb {
+        & .headingTitle {
+            font-size: 14px;
+            font-weight: 500;
+            color: $white;
+            & a {
+                font-size: 16px;
+                font-weight: 500;
+                color: $white;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    color: $theme2;
+                }
+            }
+            &.active {
+                color: lighten($black, 75);
+                &::before {
+                    color: lighten($black, 75);
+                }
+            }
+            @include sm {
+                font-size: 15px;
+            }
+            @include md {
+                font-size: 16px;
+            }
+        }
+    }
+    @include sm {
+        height: 55vh;
+    }
+}
+// blog page end
+
+// newsSectionStart 
+
+.newsSectionStart{
+    & .sectionHeading{
+        font-size: 19px;
+        font-weight: 700;
+        color: $black;
+    
+        @include md{
+            font-size: 22px;
+        }
+        @include lg{
+        font-size: 25px;
+
+        }
+    }
+    & .tableSection{
+        & .tableSectionDesign{
+            & thead{
+                & tr{
+                    & th{
+                        font-size: 16px;
+                        font-weight: 700;
+                        color:$black;
+                        background-color: $theme2;
+                        
+                        @include sm{
+                        font-size: 18px;
+
+                        }
+                    }
+                }
+            }
+            & tbody{
+                & tr {
+                    & td{
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            & a{
+                                color: $theme1;
+                            }
+                        }
+                        & a{
+                            font-size: 13px;
+                            color: $black ;
+                            font-weight: 500;
+                            transition: all 0.3s ease-in-out;
+                            @include sm{
+                                font-size: 14px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .sideNav{
+        & .imgTime{
+            height: 50px;
+            width: 250px;
+
+        }
+        & .newsHeading{
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 600;
+            color: $black;
+            @include sm{
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        & .shareWrpTxt{
+            font-size: 12px;
+            line-height: 14px;
+            color: rgb(113, 117, 118);
+            display: inline-block;
+            @include sm{
+                font-size: 14px;
+                line-height: 16px;
+            }
+         
+        }
+        & .shareWrpSprtr{
+            width: 2px;
+            height: 2px;
+            background: rgb(193, 193, 193);
+            margin: 1px 8px 0px;
+        }
+        & .socialIcon{
+            width: 35px;
+            height: 35px;
+            transition: all 0.3s ease-in-out;
+            & img{
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover{
+                & img{
+                    transform:scale(1.1);
+                }
+            }
+        }
+        & .contentNews{
+            font-size: 13px;
+            color: $black;
+            opacity: 0.7;
+            @include sm{
+                font-size: 14px;
+            }
+        }
+    }
+}

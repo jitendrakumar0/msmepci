@@ -12,6 +12,7 @@
 
 
 @section('content')
+    {{-- chairman Section Start --}}
     <div class="container-fluid chairmanSection bg-light py-4 py-md-5">
         <div class="container">
             <div class="row">
@@ -66,7 +67,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="position text-center text-lg-start pt-2 pt-xl-3">
+                        <div class="position text-center text-lg-start pt-2">
                             Chairman
                         </div>
                     </div>
@@ -79,10 +80,86 @@
             </div>
         </div>
     </div>
+    {{-- chairman Section Ends --}}
+    
+    {{-- gallary Page start --}}
+        <div class="container-fluid gallarySectionMain">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="upperBack">
+                        <div class="text d-flex align-items-center justify-content-center h-100">
+                            <div class="name">
+                                Gallary
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{-- glight Section Start --}}
+        <div class="container-fluid gallarySection px-0 py-lg-5 pt-5 pb-0 ">
+            <div class="container">
+                <div class="row glightboxMain g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="row h-100 g-4">
+                            <div class="col-6 galleryBox">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-02.jpg')}}" class=" GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-02.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                            <div class="col-6 galleryBox">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-03.jpg')}}" class=" glightImg GLightbox gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-03.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-04.jpg')}}" class=" glightImg GLightbox gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-04.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-md-block d-none">
+                        <a href="{{ url('public/assets/img/gallaryimg/g-01.jpg')}}" class=" glightImg GLightbox gallary d-block h-100">
+                            <img src="{{ url('public/assets/img/gallaryimg/g-01.jpg')}}" alt="image" class="rounded-3" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 d-lg-block d-none">
+                        <div class="row h-100 g-4">
+                            <div class="col-12">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-05.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-05.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                            <div class="col-6 galleryBox">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-06.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-06.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                            <div class="col-6 galleryBox">
+                                <a href="{{ url('public/assets/img/gallaryimg/g-07.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-07.jpg')}}" alt="image" class="rounded-3" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- glight Section Ends --}}
+    
+    {{-- gallary Page Ends --}}
+
+
 
 @endsection
 
 
 @push('scripts')
-
+<script>
+    GLightbox({
+    selector: '.gallary'
+    })
+</script>
 @endpush
