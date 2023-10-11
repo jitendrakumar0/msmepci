@@ -1,7 +1,7 @@
    {{-- navbar start  --}}
    <nav class="navbar navbarone flex-nowrap sticky-top bg-white navbar-expand-xl shadow-sm overflow-hidden container-fluid" aria-label="Offcanvas navbar large" id="navbar">
     <div class="container">
-        <a class="navbar-brand navlogo d-flex align-items-center justify-content-center me-0" href="javascript:;">
+        <a class="navbar-brand navlogo d-flex align-items-center justify-content-center me-0" href="{{ route('index') }}">
             {{-- <img src="assets/img/msmepc-logo.png" alt="logo" class="h-100 w-100 img-fluid"> --}}
             <img src="{{ url('public/assets/img/navbar/msmepc-logo.png')}}" alt="logo" class="h-100 w-100 img-fluid">
         </a>
@@ -19,25 +19,25 @@
             <div class="offcanvas-body">
             <ul class="navbar-nav navbaritem justify-content-center flex-grow-1 ps-xl-3">
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium active" aria-current="page" href="javascript:;">Home</a>
+                    <a class="nav-link navbarlink fw-medium active" aria-current="page" href="{{ route('index') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">About Us</a>
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('about') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">Whats MSME</a>
+                    <a class="nav-link navbarlink fw-medium" href="">Whats MSME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">Schemes</a>
+                    <a class="nav-link navbarlink fw-medium" href="">Schemes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">News</a>
+                    <a class="nav-link navbarlink fw-medium" href="">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">Gallery</a>
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('gallary') }}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="javascript:;">Contact Us</a>
+                    <a class="nav-link navbarlink fw-medium" href="">Contact Us</a>
                 </li>
             </ul>
             </div>

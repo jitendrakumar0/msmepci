@@ -15,24 +15,29 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');;
 
-Route::get('/pallavi', function () {
-    return view('pallavi');
-});
+// Route::get('/pallavi', function () {
+//     return view('pallavi');
+// })->name('pallavi');;
 
 Route::get('/mohit', function () {
     return view('mohit');
-});
+})->name('mohit');;
 
 Route::get('/shubham', function () {
     return view('shubham');
-});
+})->name('shubham');;
 
 Route::get('/shivtej', function () {
     return view('shivtej');
-});
+})->name('shivtej');;
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');;
+
+Route::get('/gallary', function () {
+    return view('gallary');
+})->name('gallary');;
+
