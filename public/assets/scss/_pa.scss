@@ -1,10 +1,24 @@
 .linksFluid{
     & .linkWrapper{
         border: 1px solid $white;
-        padding: 40px 20px;
+        padding: 20px;
         border-radius: 5px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         transition: 0.3s linear;
+        @include sm{
+        }
+        @include md{
+            
+        }
+        @include lg{
+            padding: 40px 20px;
+        }
+        @include xl{
+            
+        }
+        @include xxl{
+            
+        }
         &:hover{
             background-color: #ede6ff;
             border: 1px solid #ede6ff;
@@ -46,10 +60,10 @@
         }
         & img{
             margin-bottom: 0;
-            margin-left: 5px;
+            margin-left: 8px;
             color: $theme1;
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
             transition: 0.3s linear;
         }
     }
@@ -57,12 +71,25 @@
 
 .chairmanFluid{
     & .heading{
-        font-size: 25px;
-        font-weight: 700;
+        line-height: 1.2;
+        font-weight: 500;
+        @include sm{
+        }
+        @include md{
+            
+        }
+        @include lg{
+            // font-size: 25px;
+            font-weight: 700;
+        }
+        @include xl{
+            
+        }
+        @include xxl{
+            
+        }
     }
     & .para{
-        font-size: 14px;
-        color: $theme3;
     }
     & .chairmanImg{
         width: 100%;
