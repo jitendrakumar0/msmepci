@@ -32,3 +32,7 @@ Route::get('/shubham', function () {
 Route::get('/shivtej', function () {
     return view('shivtej');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
