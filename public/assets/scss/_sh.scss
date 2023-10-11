@@ -358,7 +358,7 @@
         height: 100%;
         display: block;
         background-color: $black;
-        opacity: .60;
+        opacity: .7;
     }
     & .pageheading {
         font-size: 40px;
@@ -406,7 +406,7 @@
         }
     }
     @include sm {
-        height: 55vh;
+        // height: 55vh;
     }
 }
 // blog page end
