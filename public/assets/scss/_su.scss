@@ -15,7 +15,6 @@
         }
         @include xl{
             font-size: 35px;
-            aspect-ratio: 3/2;
         }
     }
     & .position{
@@ -40,7 +39,7 @@
     & .chairmanImg{
         aspect-ratio: 3/2;
         @include md{
-            aspect-ratio: /2;
+            aspect-ratio: 11/6;
         }
     }
     & .ChairmanName{
