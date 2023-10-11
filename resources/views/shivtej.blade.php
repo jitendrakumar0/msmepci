@@ -410,24 +410,24 @@
   {{-- new section end  --}}
 
         {{-- contect us page start  --}}
-          <!-- page heading section start -->
-    <div class="container-fluid headingSection contactheading position-relative contactUs">
-        <div class="h-100 d-flex align-items-center position-relative z-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 pageheading text-center">Contact Us</div>
-                    <div class="col-12">
-                        <nav aria-label="breadcrumb" class="headingBreadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
-                                <li class="breadcrumb-item headingTitle active" aria-current="page">Contact  Us</li>
-                            </ol>
-                        </nav>
+        <!-- page heading section start -->
+            <div class="container-fluid headingSection contactheading position-relative contactUs">
+                <div class="h-100 d-flex align-items-center position-relative z-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 pageheading text-center">Contact Us</div>
+                            <div class="col-12">
+                                <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                                    <ol class="breadcrumb justify-content-center">
+                                        <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                                        <li class="breadcrumb-item headingTitle active" aria-current="page">Contact  Us</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
 
     <!-- page heading section end -->

@@ -336,6 +336,12 @@
     background-size: cover;
     background-position: center;
 }
+&.contactSection{
+    height: 45vh;
+    background: url(../img/about-us-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
     &::before {
         content: "";

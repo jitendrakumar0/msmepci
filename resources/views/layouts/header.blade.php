@@ -37,7 +37,7 @@
                     <a class="nav-link navbarlink fw-medium" href="{{ route('gallary') }}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="">Contact Us</a>
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
             </div>
