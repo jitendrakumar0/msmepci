@@ -13,7 +13,7 @@
 
 @section('content')
     {{-- chairman Section Start --}}
-    <div class="container-fluid chairmanSection bg-light py-4 py-md-5 d-none">
+    <div class="container-fluid chairmanSection bg-light py-4 py-md-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -47,7 +47,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid chairmanTwoSection bg-light py-4 py-md-5 d-none">
+    <div class="container-fluid chairmanTwoSection bg-light py-4 py-md-5">
         <div class="container">
             <div class="row gap-2 justify-content-center align-items-center">
                 <div class="col-12 col-sm-10 col-lg-5">
