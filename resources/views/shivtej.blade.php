@@ -60,8 +60,8 @@
 
   {{-- about us section start  --}}
 
-    <!-- page heading section start -->
-    <div class="container-fluid headingSection contactheading position-relative">
+    <!--about hero -->
+    <div class="container-fluid headingSection contactheading position-relative aboutUs">
         <div class="h-100 d-flex align-items-center position-relative z-1">
             <div class="container">
                 <div class="row">
@@ -78,10 +78,7 @@
             </div>
         </div>
     </div>
-    <!-- page heading section end -->
-
-{{-- about us page start  --}}
-
+    <!-- about hero end -->
   <div class="container-fluid aboutUs py-lg-5 py-md-4 py-3">
     <div class="container">
         <div class="row gap-5">
@@ -90,7 +87,6 @@
                     <div><span>About Us</span> </div>
                 </div>
             </div>
-
             <div class="col-lg-10 mx-auto">
                 <div class="ImgAbout rounded-2 overflow-hidden">
                     <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
@@ -116,7 +112,27 @@
   {{-- about us page end  --}}
 
   {{-- news section start  --}}
-
+         <!-- page heading section start -->
+         <div class="container-fluid headingSection contactheading position-relative newsSectionStart">
+            <div class="h-100 d-flex align-items-center position-relative z-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 pageheading text-center">News </div>
+                        <div class="col-12">
+                            <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                                    <li class="breadcrumb-item headingTitle active" aria-current="page">News</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- page heading section end -->
 
 
   <div class="container-fluid  newsSectionStart">
@@ -394,6 +410,38 @@
   {{-- new section end  --}}
 
         {{-- contect us page start  --}}
+          <!-- page heading section start -->
+    <div class="container-fluid headingSection contactheading position-relative contactUs">
+        <div class="h-100 d-flex align-items-center position-relative z-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pageheading text-center">Contact Us</div>
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                                <li class="breadcrumb-item headingTitle active" aria-current="page">Contact  Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- page heading section end -->
+
+
+    <div class=" container-fluid contactUs py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0378030208653!2d77.18423952427186!3d28.568627525699704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d846557f081%3A0x37d23a4f15609462!2sBhikaji%20Cama%20Place%2C%20Rama%20Krishna%20Puram%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1697020007647!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
         {{-- contect us page end  --}}
 
