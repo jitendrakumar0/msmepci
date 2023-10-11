@@ -11,14 +11,33 @@
 
 
 @section('content')
+<!-- page heading section start -->
+<div class="container-fluid headingSection contactheading position-relative">
+    <div class="h-100 d-flex align-items-center position-relative z-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pageheading text-center">About Us</div>
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">About  Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page heading section end -->
 <div class="container-fluid aboutUs py-5">
     <div class="container">
         <div class="row gap-5">
-            <div class="col-sm-12 text-center">
+            {{-- <div class="col-sm-12 text-center">
                 <div class="common-heading ">
                     <div><span>About Us</span> </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-10 mx-auto">
                 <div class="ImgAbout rounded-2 overflow-hidden">
