@@ -17,6 +17,8 @@
         <link rel="stylesheet" href="{{asset('/public')}}/assets/css/swiper.min.css" />
         <link rel="stylesheet" href="{{asset('/public')}}/assets/css/style.min.css" />
         <link rel="stylesheet" href="{{asset('/public')}}/assets/libs/glightBox/glightbox.min.css"/>
+        <link rel="stylesheet" href="{{asset('/public')}}/assets/libs/Justified-Gallery-master/dist/css/justifiedGallery.min.css"/>
+
         @stack('styles')
     </head>
     <body>
@@ -29,6 +31,8 @@
         <script src="{{asset('/public')}}/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="{{asset('/public')}}/assets/libs/swiper/swiper-bundle.min.js"></script>
         <script src="{{asset('/public')}}/assets/libs/glightBox/glightbox.min.js"></script>
+        <script src="{{asset('/public')}}/assets/libs/Justified-Gallery-master/dist/js/jquery.justifiedGallery.min.js"></script>
+
         @stack('scripts')
     </body>
 </html>

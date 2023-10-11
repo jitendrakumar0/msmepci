@@ -434,3 +434,29 @@
         }
     }
 }
+
+// gallery news 
+.gallarySection{
+    & .glightboxMain{
+        & .glightImg{
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            &:hover{
+                &::after{
+                    height: 100%;
+                }
+                &::before{
+                    opacity: 5;
+                    top: 50%;
+                }
+            }
+            & img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
