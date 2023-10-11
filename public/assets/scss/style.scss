@@ -9,5 +9,10 @@
 @import "./sh.scss";
 
 body {
+    
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
     // display: none;
 }

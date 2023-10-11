@@ -132,6 +132,9 @@
         }
         & .navimg {
             height: 30px;
+            & img{
+                object-fit: contain;
+            }
             @include sm {
                 height: 35px;
             }
@@ -207,12 +210,20 @@
 // footer start 
 .footer {
     & .footerlogo {
-        height: 50px;
+        height: 40px;
+    }
+    & .footerIcons{
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        &.footerIcons1{
+            height: 15px;
+        }
     }
     & .socialmedia {
         & .socialicon {
-            height: 40px;
-            width: 40px;
+            height: 35px;
+            width: 35px;
             padding: 12px;
             background-color: $theme1;
             // border: 1px solid $theme1;
@@ -255,14 +266,46 @@
             }
         }
     }
+    & .address{ 
+        color: $theme3 !important;   
+        line-height: normal;
+        font-size: 14px;
+        font-weight: 500;
+        @include sm{
+        }
+        @include md{
+        }
+        @include lg{
+            font-size: 16px;    
+            font-weight: 600;
+        }
+        @include xl{
+            
+        }
+        @include xxl{
+            
+        }
+    }
+    // & .phone{
+    //         font-size: 16px;
+    //         font-weight: 600; 
+    //         color: $theme3;   
+    //         line-height: normal;
+    // }
+    // & .email{
+    //         font-size: 16px;
+    //         font-weight: 600; 
+    //         color: $theme3;   
+    //         line-height: normal;
+    // }
     & .footerheading {
         font-size: 19px;
         line-height: normal;
-        margin-bottom: 18px;
+        margin-bottom: 15px;
     }
     & .footerlink {
-        font-size: 16px;
-        color: lighten($black, 30);
+        font-size: 14px;
+        color: $theme3;
         transition: all 0.3s ease-in-out;
         // &::before {
         //     content: '';
@@ -275,6 +318,20 @@
         //     background-color: $theme1;
         //     transition: all 0.3s ease-in-out;
         // }
+        @include sm{
+        }
+        @include md{
+        }
+        @include lg{
+            font-size: 16px;    
+            font-weight: 600;
+        }
+        @include xl{
+            
+        }
+        @include xxl{
+            
+        }
         &:hover {
             &::before {
                 width: 15px;
