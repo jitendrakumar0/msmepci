@@ -342,6 +342,12 @@
     background-size: cover;
     background-position: center;
 }
+&.blogSection{
+    height: 45vh;
+    background: url(../img/blog03.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
 
     &::before {
         content: "";
