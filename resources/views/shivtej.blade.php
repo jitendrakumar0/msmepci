@@ -82,13 +82,18 @@
 
 {{-- about us page start  --}}
 
-    <div class="container-fluid aboutUs py-5">
-        <div class="container">
-            <div class="row gap-5">
-                <div class="col-sm-12 text-center">
-                    <div class="common-heading ">
-                        <div><span>About Us</span> </div>
-                    </div>
+  <div class="container-fluid aboutUs py-lg-5 py-md-4 py-3">
+    <div class="container">
+        <div class="row gap-5">
+            <div class="col-sm-12 text-center">
+                <div class="common-heading ">
+                    <div><span>About Us</span> </div>
+                </div>
+            </div>
+
+            <div class="col-lg-10 mx-auto">
+                <div class="ImgAbout rounded-2 overflow-hidden">
+                    <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
                 </div>
 
                 <div class="col-lg-10 mx-auto">
@@ -112,7 +117,6 @@
 
   {{-- news section start  --}}
 
-  {{-- new section end  --}}
 
 
   <div class="container-fluid  newsSectionStart">
@@ -311,109 +315,87 @@
   </div>
 
          {{-- glight Section Start --}}
-         <div class="container-fluid gallarySection px-0 py-lg-5 pt-5 pb-0 ">
+         <div class="container-fluid gallarySection px-0 py-lg-5 py-md-4 py-3  ">
             <div class="container">
-                <div class="row glightboxMain g-4">
-                    <div class="col-12">
-                        <div class="row h-100 g-4">
-                            <div class="col-12 galleryBox "  id="mygallery">
-                                <a href="{{ url('public/assets/img/newsone.webp')}}" class=" GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newstwo.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newstwo.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsthree.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsthree.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfive.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfive.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-
-                                      <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-
-                    </div>
-
-                    {{-- <div class="col-lg-12 col-md-6">
-                        <div class="row h-100 g-4">
-                            <div class="col-12 galleryBox "  id="mygallery">
-                                <a href="{{ url('public/assets/img/newsone.webp')}}" class=" GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newstwo.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newstwo.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsthree.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsthree.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                                <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                                    <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                            <div class="col-6 galleryBox "  id="mygallery">
-                                <a href="{{ url('public/assets/img/newstwo.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newstwo.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                            <div class="col-12">
-                                <a href="{{ url('public/assets/img/newsthree.webp')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsthree.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-md-block d-none">
-                        <a href="{{ url('public/assets/img/newsfour.webp')}}" class=" glightImg GLightbox gallary d-block h-100">
-                            <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
-                        </a>
-                    </div>
-                    <div class="col-lg-4 d-lg-block d-none">
-                        <div class="row h-100 g-4">
-                            <div class="col-12">
-                                <a href="{{ url('public/assets/img/newsfive.webp')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsfive.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                            <div class="col-6 galleryBox "  id="mygallery">
-                                <a href="{{ url('public/assets/img/newssix.webp')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/newssix.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                            <div class="col-6 galleryBox "  id="mygallery">
-                                <a href="{{ url('public/assets/img/newsseveen.webp')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/newsseveen.webp')}}" alt="image" class="rounded-3" />
-                                </a>
-                            </div>
-                        </div>
-                    </div> --}}
+                
+                <div class=" "  id="mygallery">
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newstwo.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newstwo.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsthree.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsthree.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    
+                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsfive.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsfive.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newssix.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newssix.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsseveen.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsseveen.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newseight.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsnine.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsten.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newseight.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsnine.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsten.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsfivefive.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsfivefive.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newssixsix.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newssixsix.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newssevenseven.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newssevenseven.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newseighteight.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newseighteight.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newstenten.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newstenten.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newstententen.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newstententen.webp')}}" alt="image" class="rounded-3" />
+                    </a>
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                        <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
+                    </a>
                 </div>
             </div>
         </div>
         {{-- glight Section Ends --}}
+
+  {{-- new section end  --}}
+
+        {{-- contect us page start  --}}
+
+        {{-- contect us page end  --}}
 
 @endsection
 
@@ -443,13 +425,23 @@
   {{-- gallery news  --}}
 
   <script>
-    GLightbox({
+    GLightbox ({
     selector: '.gallary'
     })
 </script>
 
 <script>
-    $("#mygallery").justifiedGallery();    
+    $("#mygallery").justifiedGallery();  
+    $('#mygallery').justifiedGallery({
+    rowHeight : 200,
+    lastRow : 'justify',
+    margins : 3,
+    maxRowsCount:5,
+    margins:20,
+    captions:true,
+    
+});  
+// $("#mygallery").justifiedGallery({waitThumbnailsLoad: false});
 </script>
 
 @endpush
