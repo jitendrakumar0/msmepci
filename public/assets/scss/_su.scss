@@ -37,21 +37,24 @@
 
 .chairmanTwoSection{
     & .chairmanImg{
-        aspect-ratio: 3/2;
+        aspect-ratio: 3/1.5;
+        margin-bottom: 10px;
         @include md{
             aspect-ratio: 11/6;
         }
     }
     & .ChairmanName{
-        font-size: 25px;
-        font-weight: 600;
-        color: $theme1;
+        // font-size: 25px;
+        font-weight: 700;
         margin-bottom: -10px;
         @include sm{
-            font-size: 30;
         }
         @include xl{
-            font-size: 35px;
+        }
+        & span{
+            color: $theme3;
+            font-size: 20px;
+            margin-left: 5px;
         }
     }
     & .position{

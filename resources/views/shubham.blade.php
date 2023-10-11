@@ -26,14 +26,14 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="ChairmanName text-center">
-                                        Dr E Muthuraman
+                                        Dr E Muthuraman(Chairman)
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="position text-center">
                                         Chairman
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="col-12">
                                     <div class="description text-center pt-3">
                                         MSME Promotion Council Chairman Shri Dr. E. Muthuraman has welcomed the much-awaited Foreign Trade Policy from the Commerce Ministry under the guidance of Hon’ble Prime Minister Shri Narendra Modi Ji and Commerce and Industry Minister Shri Piyush Goyal Ji, which broke the traditional Five-Year policy lasting term and adopted the ‘Long Term’ focus for the policy, giving a visionary initiative to our country.
