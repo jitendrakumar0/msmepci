@@ -1,5 +1,5 @@
-   {{-- navbar start  --}}
-   <nav class="navbar navbarone flex-nowrap sticky-top bg-white navbar-expand-xl shadow-sm overflow-hidden container-fluid" aria-label="Offcanvas navbar large" id="navbar">
+{{-- navbar start  --}}
+<nav class="navbar navbarone flex-nowrap sticky-top bg-white navbar-expand-xl shadow-sm overflow-hidden container-fluid" aria-label="Offcanvas navbar large" id="navbar">
     <div class="container">
         <a class="navbar-brand navlogo d-flex align-items-center justify-content-center me-0" href="{{ route('index') }}">
             {{-- <img src="assets/img/msmepc-logo.png" alt="logo" class="h-100 w-100 img-fluid"> --}}
@@ -31,7 +31,7 @@
                     <a class="nav-link navbarlink fw-medium" href="">Schemes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="">News</a>
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('news') }}">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="{{ route('gallary') }}">Gallery</a>

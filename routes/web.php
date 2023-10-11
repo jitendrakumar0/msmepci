@@ -41,3 +41,7 @@ Route::get('/gallary', function () {
     return view('gallary');
 })->name('gallary');;
 
+Route::get('/news', function () {
+    return view('news');
+})->name('news');;
+

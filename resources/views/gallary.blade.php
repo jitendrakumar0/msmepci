@@ -12,7 +12,7 @@
 
 @section('content')
 {{-- gallary Page start --}}
-<div class="container-fluid gallarySectionMain">
+{{-- <div class="container-fluid gallarySectionMain">
     <div class="row">
         <div class="col-12 px-0">
             <div class="upperBack">
@@ -20,6 +20,23 @@
                     <div class="name">
                         Gallary
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+<div class="container-fluid headingSection newsSection gallarySection contactheading position-relative">
+    <div class="h-100 d-flex align-items-center position-relative z-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pageheading text-center">Gallary</div>
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">Gallary</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
