@@ -29,7 +29,7 @@
                                     <img src="{{ url('public/assets/img/smallone.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
                                 </div>
                             </div>
-                            <div class="cardContent">
+                            <div class="cardContent px-sm-3">
                                 <div class="cardHeading my-2">Micro</div>
                                 <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
                                 {{-- <div class="content">Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div> --}}
