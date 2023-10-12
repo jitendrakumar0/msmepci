@@ -323,8 +323,31 @@
     height: 45vh;
     background: url(../img/MSME.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
-
+    background-position: bottom center;
+&.newsSection{
+    height: 45vh;
+    background: url(../img/news.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+&.gallarySection{
+    height: 45vh;
+    background: url(../img/gallaryBack.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+&.contactSection{
+    height: 45vh;
+    background: url(../img/about-us-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+&.blogSection{
+    height: 45vh;
+    background: url(../img/blog03.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
 
     &::before {
         content: "";
@@ -335,7 +358,7 @@
         height: 100%;
         display: block;
         background-color: $black;
-        opacity: .60;
+        opacity: .7;
     }
     & .pageheading {
         font-size: 40px;
@@ -383,7 +406,7 @@
         }
     }
     @include sm {
-        height: 55vh;
+        // height: 55vh;
     }
 }
 // blog page end
