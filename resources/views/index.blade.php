@@ -75,7 +75,7 @@
             <div class="col-lg-6 col-12">
                 <div class="row mx-0">
                     <div class="col-12 px-0">
-                        <div class="ChairmanName heading text-center text-lg-start">
+                        <div class=" heading text-center text-lg-start">
                             Dr E Muthuraman<span>(Chairman)</span>
                         </div>
                     </div>
@@ -101,49 +101,49 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://sambandh.msme.gov.in/PPP_Index.aspx" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://samadhaan.msme.gov.in/MyMsme/MSEFC/MSEFC_Welcome.aspx" class="linksText  d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0 position">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center ">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://www.msmedatabank.in/" class="linksText  d-flex align-items-center ">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">E PARTICIPATION <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://www.dcmsme.gov.in/" class="linksText  d-flex align-items-center">E PARTICIPATION <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">MSME SAMPARK <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://sampark.gov.in/" class="linksText  d-flex align-items-center">MSME SAMPARK <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">UDHYAM AADHAR <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm" class="linksText  d-flex align-items-center">UDHYAM AADHAR <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">PMEG E PORTAL <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp" class="linksText  d-flex align-items-center">PMEG E PORTAL <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
                     <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
-                    <div class="col-12 px-0"><a href="javascript:;" class="linksText  d-flex align-items-center">CHAMPION SCHEME <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
+                    <div class="col-12 px-0"><a href="https://www.dcmsme.gov.in/" class="linksText  d-flex align-items-center">CHAMPION SCHEME <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
         </div>
@@ -198,15 +198,5 @@
     });
 </script>
 
-<script>
-    $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll <= 120) {
-        $("nav.navbar").removeClass("nav-active");
-    } else {
-        $("nav.navbar").addClass("nav-active");
-    }
-});
-</script>
 
 @endpush

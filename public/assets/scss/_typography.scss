@@ -1,5 +1,6 @@
 .heading {
     font-size: calc(14 * $heading-fs);
+    font-weight: 500;
 
     @include xs {
         font-size: calc(16 * $heading-fs);
@@ -15,6 +16,7 @@
 
     @include lg {
         font-size: calc(22 * $heading-fs);
+        font-weight: 700;
     }
 
     @include xl {
