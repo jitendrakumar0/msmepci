@@ -560,8 +560,8 @@
                                 </div>
                                 <div class="cardContent">
                                     <div class="cardHeading my-2">Micro</div>
-                                    <div class="content">Investment in Plant and Machinery or Equipment:</div>
-                                    <div class="content">Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
+                                    <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
+                                    {{-- <div class="content">Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div> --}}
                                 </div>
                             </div>
                         </div>
@@ -574,8 +574,8 @@
                                 </div>
                                 <div class="cardContent px-sm-3">
                                     <div class="cardHeading my-2">Small</div>
-                                    <div class="content">Investment in Plant and Machinery or Equipment:</div>
-                                    <div class="content">Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore</div>
+                                    <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore</div>
+                                    {{-- <div class="content">Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore</div> --}}
                                 </div>
                                 <div class=" card-header d-sm-block d-none">
                                     <div class="cardImg">
@@ -593,8 +593,8 @@
                                 </div>
                                 <div class="cardContent px-sm-3">
                                     <div class="cardHeading my-2">Medium</div>
-                                    <div class="content">Investment in Plant and Machinery or Equipment:</div>
-                                    <div class="content">Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
+                                    <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
+                                    {{-- <div class="content">Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div> --}}
                                 </div>
                             </div>
                         </div>
