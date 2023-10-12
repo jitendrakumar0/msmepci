@@ -27,14 +27,17 @@
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="">Whats MSME</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="">Schemes</a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="{{ route('news') }}">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="{{ route('gallary') }}">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('blog') }}">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="{{ route('contact') }}">Contact Us</a>
