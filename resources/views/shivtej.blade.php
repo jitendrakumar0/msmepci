@@ -544,13 +544,13 @@
         <div class="container">
             <div class="row gap-md-5 gap-4">
                 <div class="col-12">
-                    <div class="title fw-semibold text-center text-black">Revised Classification applicable w.e.f 1st July 2020</div>
+                    <div class="heading fw-semibold text-center text-black">Revised Classification applicable w.e.f 1st July 2020</div>
                     <div class="title fw-semibold  text-center text-black">Composite Criteria: Investment in Plant & Machinery/equipment and Annual Turnover</div>
                     <div class="subTitle fw-semibold text-center text-black"> <strong>Classification:</strong> Manufacturing Enterprises and Enterprises rendering Services</div>
 
                 </div>
                 <div class="col-12">
-                    <div class="row mx-0 gap-sm-0 gap-3">
+                    <div class="row mx-0 gap-sm-0 gap-3 align-items-center ">
                         <div class="col-lg-4 col-sm-6 order1 px-0">
                             <div class="msmeCardWhat">
                                 <div class=" card-header">

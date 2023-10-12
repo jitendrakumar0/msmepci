@@ -801,6 +801,10 @@
             }
         }
         & .cardContent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             @include sm{
                 height: 163px;
             }
@@ -826,6 +830,7 @@
                 }
             }
             & .content{
+              
                 text-align: center;
                 color: $black;
                 opacity: 0.7;
