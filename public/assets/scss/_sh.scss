@@ -1,4 +1,5 @@
 .heroSection {
+
     & .heroSwiper {
         width: 100%;
         height: 100%;
@@ -14,158 +15,149 @@
               visibility: visible;
           }
         }
-    & .swiperSlider {
-          background-position: center;
-          background-size: cover;
-          transition: all 0.3s ease-in-out;
-          width: 100%;
-        //   height: 200px;
-          @include sm{
-            // height:250px;
-          }
-          @include md{
-            // height: 350px;
-          }
-          
-          @include lg{
-            //   height: 410px;
-
-          }
-          & .sliderImg{
-  
+        & .swiperSlider {
+            background-position: center;
+            background-size: cover;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            //   height: 200px;
             @include sm{
-                height: auto;
+                // height:250px;
             }
-      
-            & img{
-               object-fit: contain;
-           
+            @include md{
+                // height: 350px;
+            }
+            
+            @include lg{
+                //   height: 410px;
 
-               @include sm{
-                height: 100% !important;
-               }
-               
             }
-          }
+            & .sliderImg{
+    
+                @include sm{
+                    height: auto;
+                }
+        
+                & img{
+                object-fit: contain;
+            
+
+                @include sm{
+                    height: 100% !important;
+                }
+                
+                }
+            }
         }
-         .swiper-button-next{
-            position: absolute;
+        & .swiper-button-next{
+            &::after{
+                display: none !important;
+            }
             width: 40px;
             height: 40px;
-            background-color: rgba(255, 255, 255, 0.945);
-            top: 50%;
-            transform: translateY(-50%);
-            left: 10px;
+            padding: 10px;
+            border-radius: 50%;
+            background: rgba(8, 8, 8, 0.342);
+            box-shadow: 0 3px 4px #b9aeae10;
+            border: 1px solid $white;
+            opacity: 1;
+            backdrop-filter: blur(15px);
             z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             transition: all 0.3s ease-in-out;
-            border-radius: 10px;
-            opacity: 0;
-            visibility: hidden;
+            &:hover{
+                background: $theme2 !important;
+            }
+
             @include sm{
-                width: 50px;
-                height: 50px;
+         
+            }
+            @include md{
+                width: 45px;
+                height: 45px;
             }
             @include lg{
-            border-radius: 10px;
-
                 width: 55px;
                 height: 55px;
             }
-            &:hover{
-                background-color: $theme2;
-            }
 
-             .navIcon{
-                padding: 10px;
-                width: 40px;
-                height: 40px;
-                border-radius: 8px;
-                @include sm{
-                    width: 50px;
-                    height: 50px;
+            & .swiperIcon{
+                & img{
+                 filter: invert(1);
                 }
-                @include lg{
-                border-radius: 10px;
-
-                    width: 55px;
-                    height: 55px;
-                }
-           
-
             }
         }
         & .swiper-button-prev{
-            position: absolute;
+            &:after{
+                display: none !important;
+            }
             width: 40px;
             height: 40px;
-            background-color: rgba(255, 255, 255, 0.945);
-            top: 50%;
-            transform: translateY(-50%);
-            right: 10px;
+            padding: 10px;
+            border-radius: 50%;
+            background: rgba(8, 8, 8, 0.342);
+            box-shadow: 0 3px 4px #b9aeae10;
+            border: 1px solid $white;
+            opacity: 1;
+            backdrop-filter: blur(15px);
             z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             transition: all 0.3s ease-in-out;
-            border-radius: 10px;
-            overflow: 0;
-            visibility: hidden;
             @include sm{
-                width: 50px;
-                height: 50px;
+         
+            }
+            @include md{
+                width: 45px;
+                height: 45px;
             }
             @include lg{
                 width: 55px;
                 height: 55px;
             }
             &:hover{
-                background-color: $theme2;
+                background: $theme2 !important;
             }
+            & img{
+                filter: invert(1);
+               }
+               
+        }
+        & .swiper-pagination{
+        z-index: 5 !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap:5px;
+        align-items: center;
+        justify-content: center;
+    
+            & .swiper-pagination-bullet{
+             width: 20px;
+             height: 3px;
+             border-radius: 100px;
+             background: $black !important;
+             z-index: 6;
+             opacity: 1;
+             @include sm{
+                width: 35px;
+                height: 4px;
+             }
 
-            & .navIcon{
-                padding: 10px;
+            }
+            & .swiper-pagination-bullet-active{
                 width: 40px;
-                height: 40px;
-              
-                @include sm{
-                    width: 50px;
-                    height: 50px;
-                }
-                @include lg{
-                    width: 55px;
-                    height: 55px;
-                }
-           
-
+                background: $theme2 !important;
             }
-        }
-        & .swiper-pagination-bullet{
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%);
-            height: 12px;
-            width: 12px;
-            transition: all .3s ease-in-out;
-            z-index: 1;
-            background-color: $theme1;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            bottom: 15px;
-            border-radius: 50%  !important;
-        }
-        & .swiper-pagination-bullet-active{
-            background-color: $theme2;
-            transition: all .3s ease-in-out;
+
+
         }
     }
- 
+    
     
   
     
+}
+.jg-caption{
+    display: none !important;
 }
 
 .aboutUs{
@@ -318,6 +310,66 @@
     }
 }
 
+
+ .gallarySection{
+    & #mygallery{
+        & .galleryHover{
+            border-radius: 10px !important;
+            overflow: hidden;
+           
+            &:hover{
+                & img{
+                    transform: scale(1.1) !important;
+                }
+            }
+            & img{
+                transition: all 0.3s ease-in-out;
+                overflow: hidden;
+                border-radius: 10px !important;
+                border: 1px dashed $theme1;
+            }
+            &::after{
+                content: '';
+                width: 0%;
+                height: 0%;
+                background-color: rgba(0,0,0,0.4);
+                position: absolute;
+               inset: 0;
+                transition: 0.3s linear;
+                border-radius: 8px;
+            }
+            &::before{
+                content: '';
+                background-image: url(../img/pluswhite.svg);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                background-size: 30px;
+                width: 30px;
+                height: 30px;
+                transform: translate(-50%);
+                z-index: 100000;
+                visibility: hidden;
+                opacity: 0;
+                transition: all .3s ease-in-out;
+            }
+            &:hover{
+                &::after{
+                    height: 100%;
+                    width: 100%;
+                  
+                }
+                &::before{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+
+    }
+   
+
+}
     // blog page start 
 .headingSection {
     height: 45vh;
@@ -330,12 +382,7 @@
     background-size: cover;
     background-position: center;
 }
-&.gallarySection{
-    height: 45vh;
-    background: url(../img/gallaryBack.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 &.contactSection{
     height: 45vh;
     background: url(../img/about-us-banner.jpg) no-repeat;
@@ -420,7 +467,6 @@
         background-size: cover;
         background-position: center center;
     
-    
         &::before {
             content: "";
             position: absolute;
@@ -477,6 +523,7 @@
                 }
             }
         }
+     
         @include sm {
             height: 55vh;
         }
