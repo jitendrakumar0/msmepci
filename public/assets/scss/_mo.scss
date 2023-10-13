@@ -204,6 +204,14 @@
         }
     }
 }
+.copyrytTxt{
+    font-size: 12px;
+    font-weight: 500;
+    & span{
+        font-size: 11px;
+        color: $theme3;
+    }
+}
 // search offcanvas end
 
 
