@@ -16,44 +16,136 @@
 {{-- hero section start  --}}
 <div class="heroSection container-fluid px-0 overflow-hidden">
     <div class="row">
-      <div class="col-12 ">
-        <div class="swiper mySwiper heroSwiper position-relative">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide swiperSlider">
+      <div class="col-12">
+        <div class="swiper mySwiper heroSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-            </div>
-            <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-             </div>
-
-             <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-             </div>
-             <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-             </div>
-             <div class="swiper-button-next d-md-block d-none"> 
-               <span class="d-inline-flex navIcon">
-                   <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-               </span> 
-               </div>
-               <div class="swiper-button-prev d-md-block d-none">
-               <span class="d-inline-flex navIcon">
-                   <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-               </span> 
-               </div>
-          <div class="swiper-pagination dotsarrow text-center rounded-pill py-2 mx-auto swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal d-sm-none d-block"></div>
-          </div>
+              </div>
+            </div>
+            {{-- <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
+            </div>
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div> --}}
+            <div class="swiper-pagination rounded-pill"></div>
+
         </div>
       </div>
+
+      {{-- <div class="col-12">
+        <div class="swiper mySwiper heroSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
+            </div>
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="swiper mySwiper heroSwipers">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
+            </div>
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="swiper mySwiper heroSwipert">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
+            </div>
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="swiper mySwiper heroSwiperf">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sliderImg">
+                    <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
+            </div>
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+      </div> --}}
     </div>
   </div>
   {{-- hero section end  --}}
@@ -61,7 +153,7 @@
   {{-- about us section start  --}}
 
     <!--about hero -->
-    <div class="container-fluid headingSection contactheading position-relative aboutUs">
+    <div class="container-fluid headingSection contactheading mt-5 position-relative aboutUs">
         <div class="h-100 d-flex align-items-center position-relative z-1">
             <div class="container">
                 <div class="row">
@@ -88,9 +180,9 @@
                 </div>
             </div>
             <div class="col-lg-10 mx-auto">
-                <div class="ImgAbout rounded-2 overflow-hidden">
+                {{-- <div class="ImgAbout rounded-2 overflow-hidden">
                     <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
-                </div>
+                </div> --}}
 
                 <div class="col-lg-10 mx-auto">
                     <div class="ImgAbout rounded-2 overflow-hidden">
@@ -108,31 +200,14 @@
             </div>
         </div>
     </div>
-
+  </div>
   {{-- about us page end  --}}
 
   {{-- news section start  --}}
-         <!-- page heading section start -->
-         <div class="container-fluid headingSection contactheading position-relative newsSectionStart">
-            <div class="h-100 d-flex align-items-center position-relative z-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 pageheading text-center">News </div>
-                        <div class="col-12">
-                            <nav aria-label="breadcrumb" class="headingBreadcrumb">
-                                <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
-                                    <li class="breadcrumb-item headingTitle active" aria-current="page">News</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
     
     
-        <!-- page heading section end -->
+       
 
 
   <div class="container-fluid  newsSectionStart">
@@ -145,14 +220,13 @@
             </div>
             <div class="col-12">
                 <div class="row gap-lg-0 gap-4">
-                    <div class="col-lg-8 pt-lg-3 pt-md-3 px-0">
-                        <div class="row pb-lg-4  mx-0 gap-lg-4 gap-md-3 gap-2">
-                        <div class="sectionHeading  col-12 px-0">Related Links News</div>
-                            <div class="col-12 px-0 tableSection table-responsive">
+                    <div class="col-lg-6 ">
+                        <div class="row ">
+                            <div class="col-11 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     <thead>
                                         <tr>
-                                            <th scope="col" class="text-nowrap">MSME  NEWS</th>
+                                            <th scope="col" class="text-nowrap ">MSME  NEWS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -201,6 +275,23 @@
                                         <tr>
                                             <td><a href="https://thepunjabtoday.com/punjabi/News/english/4362" class=" text-decoration-none d-flex align-items-center">https://thepunjabtoday.com/punjabi/News/english/4362</a></td>
                                         </tr>
+                                  
+                                    </tbody>
+                                </table>
+                            </div>
+                     
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="row ">
+                            <div class="col-11 mx-auto  tableSection table-responsive">
+                                <table class="table table-hover tableSectionDesign w-100 text-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="text-nowrap">MSME  NEWS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
                                         <tr>
                                             <td><a href="https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/" class=" text-decoration-none d-flex align-items-center">https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/</a></td>
                                         </tr>
@@ -250,15 +341,13 @@
                                         <tr>
                                             <td><a href="https://pelikken.com/single/news/12826" class=" text-decoration-none d-flex align-items-center">https://pelikken.com/single/news/12826</a></td>
                                         </tr>
-                                     
-    
                                     </tbody>
                                 </table>
                             </div>
                      
                         </div>
                     </div>
-                    <div class="col-lg-4 ps-lg-5">
+                    {{-- <div class="col-lg-4 ps-lg-5">
                         <div class="sideNav">
                             <div class="row gap-2">
                                 <div class="col-12">
@@ -322,7 +411,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 
                 </div>
             </div>
@@ -334,72 +423,72 @@
          <div class="container-fluid gallarySection px-0 py-lg-5 py-md-4 py-3  ">
             <div class="container">
                 
-                <div class=" "  id="mygallery">
-                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                <div class=" galleryRow"  id="mygallery">
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newstwo.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newstwo.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newstwo.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsthree.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsthree.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsthree.webp')}}" alt="image" class="rounded-3" />
                     </a>
                     
-                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsfive.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsfive.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsfive.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newssix.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newssix.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newssix.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsseveen.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsseveen.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsseveen.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newseight.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsnine.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsten.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsfour.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsfour.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newseight.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newseight.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsnine.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsnine.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsten.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsten.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsfivefive.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsfivefive.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsfivefive.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newssixsix.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newssixsix.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newssixsix.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newssevenseven.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newssevenseven.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newssevenseven.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newseighteight.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newseighteight.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newseighteight.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newstenten.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newstenten.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newstenten.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newstententen.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newstententen.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newstententen.webp')}}" alt="image" class="rounded-3" />
                     </a>
-                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary ">
+                    <a href="{{ url('public/assets/img/newsone.webp')}}" class="GLightbox gallary galleryHover ">
                         <img src="{{ url('public/assets/img/newsone.webp')}}" alt="image" class="rounded-3" />
                     </a>
                 </div>
@@ -609,11 +698,8 @@
 
 @push('scripts')
 
-
-<script>
+ <script>
     var swiper = new Swiper(".heroSwiper", {
-      spaceBetween: 30,
-      effect: "fade",
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -622,33 +708,92 @@
         el: ".swiper-pagination",
         clickable: true,
       },
-    //   autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    //   },
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
     });
   </script>
 
-  {{-- gallery news  --}}
+{{-- <script> 
+    var swiper = new Swiper(".heroSwiper", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -400],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+    var swiper2 = new Swiper(".heroSwipers", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-120%", 0, -500],
+        },
+        next: {
+          shadow: true,
+          translate: ["120%", 0, -500],
+        },
+      },
+    });
+    var swiper3 = new Swiper(".heroSwipert", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: ["-20%", 0, -1],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+    var swiper4 = new Swiper(".heroSwiperf", {
+      grabCursor: true,
+      effect: "creative",
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [180, 0, 0],
+        },
+        next: {
+          shadow: true,
+          translate: [0, 0, -800],
+          rotate: [-180, 0, 0],
+        },
+      },
+    });
+  </script>  --}}
 
   <script>
-    GLightbox ({
-    selector: '.gallary'
-    })
-</script>
 
-<script>
-    $("#mygallery").justifiedGallery();  
+ 
+    // $("#mygallery").justifiedGallery();      
     $('#mygallery').justifiedGallery({
     rowHeight : 200,
     lastRow : 'justify',
-    margins : 3,
+    margins : 0,
     maxRowsCount:5,
     margins:20,
     captions:true,
     
 });  
 // $("#mygallery").justifiedGallery({waitThumbnailsLoad: false});
+</script>
+
+<script>
+    GLightbox({
+    selector: '.gallary'
+    })
 </script>
 
 @endpush
