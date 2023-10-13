@@ -131,14 +131,14 @@
         justify-content: center;
     
             & .swiper-pagination-bullet{
-             width: 20px;
+             width: 15px;
              height: 3px;
              border-radius: 100px;
              background: $black !important;
              z-index: 6;
              opacity: 1;
              @include sm{
-                width: 35px;
+                width: 15px;
                 height: 4px;
              }
 
