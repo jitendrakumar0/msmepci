@@ -99,7 +99,7 @@
 }
 
 .content {
-    font-size: calc(12 * $content-fs);
+    font-size: calc(12 * $content-fs);line-height: 1.9;
 
     @include xs {
         font-size: calc(13 * $content-fs);
