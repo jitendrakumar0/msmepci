@@ -240,9 +240,14 @@ body{
     z-index: 5;
     display: none;
     &.text1{
-        right:200px;
-        top: -30px;
-        position: absolute;
+        right: unset;
+        top: -40px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    &.text2{
+        left:0;
+        top: -5px;
     }
     @include sm{
     }

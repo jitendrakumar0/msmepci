@@ -13,49 +13,47 @@
 
 @section('content')
 
-<div class="heroSection container-fluid overflow-hidden px-0">
+<div class="heroSection container-fluid px-0 overflow-hidden">
     <div class="row">
-    <div class="col-12 ">
-        <div class="swiper mySwiper heroSwiper position-relative">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide swiperSlider">
+      <div class="col-12">
+        <div class="swiper mySwiper heroSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-            </div>
-            <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-            </div>
-            <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-            </div>
-            <div class="swiper-slide swiperSlider">
+              </div>
+              <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
+              </div>
             </div>
-            <div class="swiper-button-next d-md-block d-none"> 
-            <span class="d-inline-flex navIcon">
-                <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-
-            </span> 
+            {{-- <div class="swiper-button-next"> 
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+               
             </div>
-            <div class="swiper-button-prev d-md-block d-none">
-            <span class="d-inline-flex navIcon">
-                <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+            <div class="swiper-button-prev">
+                <span class="swiperIcon d-inline-flex"> 
+                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
+                </span>
+            </div> --}}
+            <div class="swiper-pagination rounded-pill"></div>
 
-            </span> 
-
-            </div>
-            
-        <div class="swiper-pagination dotsarrow text-center rounded-pill py-2 mx-auto swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal d-sm-none d-block"></div>
         </div>
-        </div>
-    </div>
+      </div>
     </div>
 </div>
 
@@ -186,8 +184,11 @@
 
 
 <div class="container-fluid overflow-hidden chairmanFluid bg-light">
-    <div class="container">
+    <div class="container position-relative">
         <div class="row align-items-center py-4 py-md-5">
+            <div class="col-12">
+                <div class="txt text2">Muthuraman</div>
+            </div>
             <div class="col-xl-6 col-lg-7 col-12 order-lg-1 order-2">
                 <div class="row">
                     <div class="col-12">
@@ -212,8 +213,11 @@
 </div>
 
 <div class="container-fluid blogsectionSecond py-5">
-    <div class="container">
+    <div class="container position-relative">
         <div class="row gy-3 gy-sm-4">
+            <div class="col-12">
+                <div class="txt text2">Blog</div>
+            </div>
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="heading">Blog</div>
                 <a href="" class="allBlog">All Blog <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a>
