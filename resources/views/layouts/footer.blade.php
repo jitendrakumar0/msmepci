@@ -110,4 +110,13 @@
 
     </div>
 </footer>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center pb-2">
+                <div class="copyrytTxt">MSME PROMOTION COUNCIL <span> © 2022 CREATED BY </span>IMG Global Infotech</div>
+            </div>
+        </div>
+    </div>
+</div>
 {{-- footer end --}}
