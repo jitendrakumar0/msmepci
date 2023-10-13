@@ -1,16 +1,8 @@
 .heading {
     font-size: calc(14 * $heading-fs);
-    font-weight: 500;
-    position: relative;
-    &::after{
-        content: "";
-        width: 200px;
-        height: 5px;
-        background-color: $theme1;
-        position: absolute;
-        bottom: 40px;
-        left: 0;
-    }
+    font-weight: 600;
+    line-height: 110%;
+    margin-bottom: 10px;
     // border-bottom: 2px solid $theme1;
 
     @include xs {
@@ -27,7 +19,6 @@
 
     @include lg {
         font-size: calc(22 * $heading-fs);
-        font-weight: 700;
     }
 
     @include xl {
@@ -109,7 +100,6 @@
 
 .content {
     font-size: calc(12 * $content-fs);
-    color: $theme3;
 
     @include xs {
         font-size: calc(13 * $content-fs);
