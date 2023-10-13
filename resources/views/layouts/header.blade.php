@@ -25,7 +25,7 @@
                     <a class="nav-link navbarlink fw-medium" href="{{ route('about') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="">Whats MSME</a>
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('whatsmsme') }}">Whats MSME</a>
                 </li>
                 {{-- <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="">Schemes</a>

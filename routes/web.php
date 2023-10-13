@@ -53,3 +53,7 @@ Route::get('/blog', function () {
     return view('blog');
 })->name('blog');;
 
+Route::get('/whatsmsme', function () {
+    return view('whatsmsme');
+})->name('whatsmsme');;
+
