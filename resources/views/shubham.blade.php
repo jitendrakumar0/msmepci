@@ -771,6 +771,23 @@
 
     {{-- blog Section Ends --}}
 
+    {{-- about section start --}}
+        <div class="container-fluid aboutSection">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="head text-center pb-3 pt-2">
+                            About Us
+                        </div>
+                        <div class="subHead text-center">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{-- about section Ends --}}
+
 
 
 @endsection

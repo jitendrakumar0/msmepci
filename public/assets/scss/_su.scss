@@ -475,3 +475,57 @@
         }
     }
 // blog Section Ends
+
+// about Section Start
+    .aboutSection{
+        & .head{
+            font-size: 25px;
+            font-weight: 800;
+            position: relative;
+            @include sm{
+                font-size: 30px;
+            }
+            @include md{
+                font-size: 35px;
+            }
+            @include lg{
+                font-size: 40px;
+            }
+            @include xl{
+                font-size: 45px;
+            }
+            @include xxl{
+                font-size: 50px;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                height: 3px;
+                width: 45px;
+                top: 0%;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: $theme2;
+                @include sm{
+                    width: 50px;
+                }
+                @include md{
+                    width: 60px;
+                }
+                @include lg{
+                    width: 65px;
+                }
+                @include xl{
+                    width: 70px;
+                }
+                @include xxl{
+                    width: 80px;
+                }
+            }
+        }
+        & .subHead{
+            font-size: 16px;
+            opacity: 0.8;
+        }
+    }
+// about Section Ends
