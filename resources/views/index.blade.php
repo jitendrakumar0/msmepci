@@ -59,6 +59,20 @@
     </div>
 </div>
 
+<div class="container-fluid py-4 py-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12"><div class="heading">About Us</div></div>
+                    <div class="col-12"><div class="content">The Micro, Small and Medium Enterprises (MSME) sector has emerged as a highly vibrant and dynamic sector of the Indian economy over the last five decades. It contributes significantly in the economic and social development of the country by fostering entrepreneurship and generating largest employment opportunities at comparatively lower capital cost, next only to agriculture. MSMEs are complementary to large industries as ancillary units and this sector contributes significantly in the inclusive industrial development of the country. The MSMEs are widening their domain across sectors of the economy, producing diverse range of products and services to meet demands of domestic as well as global markets.</div></div>
+                </div>
+            </div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid overflow-hidden chairmanTwoSection bg-light py-4 py-md-5">
     <div class="container">
         <div class="row justify-content-center align-items-center mx-0">
@@ -100,49 +114,49 @@
         <div class="row g-3 mx-0">
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img class="d-block" src="{{ url('public/assets/img/samadhan.svg')}}" alt=""><img class="d-none" src="{{ url('public/assets/img/samadhanwhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://sambandh.msme.gov.in/PPP_Index.aspx" class="linksText d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/samadhan.svg')}}" alt=""><img src="{{ url('public/assets/img/samadhan.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://samadhaan.msme.gov.in/MyMsme/MSEFC/MSEFC_Welcome.aspx" class="linksText  d-flex align-items-center">MSME SAMADHAN <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0 position">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/database.svg')}}" alt=""><img src="{{ url('public/assets/img/databasewhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://www.msmedatabank.in/" class="linksText  d-flex align-items-center ">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/participation.svg')}}" alt=""><img src="{{ url('public/assets/img/participationwhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://www.dcmsme.gov.in/" class="linksText  d-flex align-items-center">E PARTICIPATION <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class=" linksIcon  "><img src="{{ url('public/assets/img/sampark.svg')}}" alt=""><img src="{{ url('public/assets/img/samparkwhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://sampark.gov.in/" class="linksText  d-flex align-items-center">MSME SAMPARK <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/udhyam aadhar.svg')}}" alt=""><img src="{{ url('public/assets/img/aadharwhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm" class="linksText  d-flex align-items-center">UDHYAM AADHAR <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/portal.svg')}}" alt=""><img src="{{ url('public/assets/img/portalwhite.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp" class="linksText  d-flex align-items-center">PMEG E PORTAL <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/copy.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/scheme.svg')}}" alt=""><img src="{{ url('public/assets/img/scheme.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://www.dcmsme.gov.in/" class="linksText  d-flex align-items-center">CHAMPION SCHEME <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>

@@ -195,7 +195,11 @@
 
 {{-- gallary Page Ends --}}
 @endsection
-
+<script>
+    GLightbox({
+    selector: '.gallary'
+    })
+</script>
 
 @push('scripts')
 @endpush

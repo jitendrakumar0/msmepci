@@ -1,6 +1,17 @@
 .heading {
     font-size: calc(14 * $heading-fs);
     font-weight: 500;
+    position: relative;
+    &::after{
+        content: "";
+        width: 200px;
+        height: 5px;
+        background-color: $theme1;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+    }
+    // border-bottom: 2px solid $theme1;
 
     @include xs {
         font-size: calc(16 * $heading-fs);

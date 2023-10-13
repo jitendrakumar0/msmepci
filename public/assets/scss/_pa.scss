@@ -6,6 +6,7 @@
         border-radius: 5px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         transition: 0.3s linear;
+        background-color: $white;
         cursor: pointer;
         @include sm{
         }
@@ -22,13 +23,22 @@
             
         }
         &:hover{
-            background-color: #ede6ff;
-            border: 1px solid #ede6ff;
-            & .linksText{
-                text-decoration: underline;
-                color: $black;
+            background-color: $theme1;
+            border: 1px solid $theme1;
+            
+            & .linksIcon{
                 & img{
-                    color: #ede6ff !important;
+                    &:first-child{
+                    display: none !important;
+                }
+                &:last-child{
+                    display: block !important;
+                }
+                }
+            }
+            & .linksText{
+                color: $white;
+                & img{
                     transform: translateX(10px);
                 }
                 &::after{
@@ -36,25 +46,27 @@
                 }
             }
         }
-        & img{
-            margin-bottom: 20px;
-            z-index: 2;
-            position: relative;
-            width: 25px;
-            height: 25px;
-            @include sm{
-            }
-            @include md{
-            }
-            @include lg{
-                width: 40px;
-                height: 40px;
-            }
-            @include xl{
-                
-            }
-            @include xxl{
-                
+        & .linksIcon{
+            & img{
+                margin-bottom: 20px;
+                z-index: 2;
+                position: relative;
+                width: 25px;
+                height: 25px;
+                @include sm{
+                }
+                @include md{
+                }
+                @include lg{
+                    width: 40px;
+                    height: 40px;
+                }
+                @include xl{
+                    
+                }
+                @include xxl{
+                    
+                }
             }
         }
     }
@@ -77,9 +89,9 @@
             
         }
         &::after{
-            content: "";
+            // content: "";
             position: absolute;
-            background-color: #ede6ff;
+            background-color: white;
             bottom: 33px;
             width: 25px;
             height: 25px;
@@ -104,7 +116,7 @@
         & img{
             margin-bottom: 0;
             margin-left: 8px;
-            color: $theme1;
+            color: $white;
             width: 15px;
             height: 15px;
             transition: 0.3s linear;
