@@ -57,10 +57,10 @@
                 text-transform: uppercase;
                 transition: all 0.3s ease-in-out;
                 &:hover {
-                    color: $theme2;
+                    color: $theme1;
                 }
                 &.active {
-                    color: $theme2;
+                    color: $theme1;
                 }
                 @include sm {
                     font-size: 12px;
@@ -222,6 +222,7 @@
         width: 18px;
         height: 18px;
         object-fit: contain;
+        filter: invert(1)brightness(1000);
         &.footerIcons1{
             height: 15px;
         }

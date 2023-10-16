@@ -11,13 +11,29 @@
 
 
 @section('content')
-
+<div class="container-fluid headingSection contactheading position-relative">
+    <div class="h-100 d-flex align-items-center position-relative z-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pageheading text-center">Blog</div>
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="headingBreadcrumb">
+                        <ol class="breadcrumb justify-content-center align-items-center mb-0">
+                            <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-fluid blogsectionSecond py-5">
     <div class="container">
         <div class="row gy-3 gy-sm-4">
-            <div class="col-12">
+            {{-- <div class="col-12">
                 <div class="heading text-center">Blog</div>
-            </div>
+            </div> --}}
             <div class="col-12 col-sm-6 col-lg-4 col-xl-4">
                 <div class="row">
                     <div class="col-12">

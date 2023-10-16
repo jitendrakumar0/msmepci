@@ -338,14 +338,16 @@
 }
     // blog page start 
 .headingSection {
-    height: 45vh;
+    height: 35vh;
     background: url(../img/MSME.jpg) no-repeat;
     background-size: cover;
     background-position: bottom center;
+    background-attachment: fixed;
 &.newsSection{
     height: 45vh;
     background: url(../img/news.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -353,12 +355,14 @@
     height: 45vh;
     background: url(../img/about-us-banner.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 &.blogSection{
     height: 45vh;
     background: url(../img/blog03.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: bottom center;
 }
 
@@ -378,16 +382,12 @@
         font-weight: 700;
         color: $white;
         @include sm {
-            font-size: 45px;
         }
         @include md {
-            font-size: 50px;
         }
         @include lg {
-            font-size: 55px;
         }
         @include xl {
-            font-size:60px;
         }
     }
     & .headingBreadcrumb {
@@ -396,7 +396,7 @@
             font-weight: 500;
             color: $white;
             & a {
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 500;
                 color: $white;
                 transition: all 0.3s ease-in-out;
@@ -411,10 +411,8 @@
                 }
             }
             @include sm {
-                font-size: 15px;
             }
             @include md {
-                font-size: 16px;
             }
         }
     }
