@@ -312,13 +312,15 @@
             z-index: 10;
             height: 100%;
             & .cardImg{
-                aspect-ratio: 1/1;
+                aspect-ratio: 1/0.7;
+                border-radius: 6px 6px 0 0;
+                overflow: hidden;
                 & img{
                     object-fit: cover;
                 }
             }
             & .content{
-                padding: 10px 30px;
+                padding: 20px 30px;
                 & .threeDiv{
                     & .threeImg{
                         & .roundedImg{
@@ -386,9 +388,9 @@
                 }
                 & .cardSubHeading{
                     font-size: 14px;
-                    line-height: 120%;
+                    // line-height: 120%;
+                    line-height: 1.9;
                     margin-top: 10px;
-                    opacity: 0.8;
                     display: -webkit-box;
                     -webkit-line-clamp: 3;
                     -webkit-box-orient: vertical;
@@ -431,13 +433,10 @@
                         }
                     }
                     &:hover{
-                        background-color: $theme2;
-                        border-radius: 6px;
                         & .heartBlackimg{
-                            filter: none;
+                            transform: translateX(5px);
                         }
                         & .numberanc{
-                            color: $white;
                         }
                     }
                 }

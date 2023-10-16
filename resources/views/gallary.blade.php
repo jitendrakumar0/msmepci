@@ -29,12 +29,12 @@
     <div class="h-100 d-flex align-items-center position-relative z-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 pageheading text-center">Gallary</div>
+                <div class="col-12 pageheading text-center">Gallery</div>
                 <div class="col-12">
                     <nav aria-label="breadcrumb" class="headingBreadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
-                            <li class="breadcrumb-item headingTitle active" aria-current="page">Gallary</li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">Gallery</li>
                         </ol>
                     </nav>
                 </div>

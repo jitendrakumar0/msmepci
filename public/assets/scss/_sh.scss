@@ -161,11 +161,27 @@
 }
 
 .aboutUs{
+    position: relative;
+    z-index: 1;
+    &::after{
+        content: '';
+        background-image: url(./../img/aboutbg.svg);
+        background-repeat: no-repeat;
+        background-position:top center;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
      & .headingSection {
         height: 45vh;
         background: url(../img/MSME.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
+        
     
     
         &::before {
@@ -344,7 +360,7 @@
     background-position: bottom center;
     background-attachment: fixed;
 &.newsSection{
-    height: 45vh;
+    height: 35vh;
     background: url(../img/news.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -352,20 +368,27 @@
 }
 
 &.contactSection{
-    height: 45vh;
+    height: 35vh;
     background: url(../img/about-us-banner.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 &.blogSection{
-    height: 45vh;
-    background: url(../img/blog03.jpg) no-repeat;
+    height: 35vh;
+    background: url(../img/msme.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
 }
+&.gallarySection{
+    height: 35vh;
+    background: url(../img/gallaryBack.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
 
+}
     &::before {
         content: "";
         position: absolute;
@@ -374,8 +397,8 @@
         width: 100%;
         height: 100%;
         display: block;
-        background-color: $black;
-        opacity: .7;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(5px);
     }
     & .pageheading {
         font-size: 40px;
@@ -422,77 +445,25 @@
 }
 // blog page end
 
+
 // newsSectionStart 
 
 .newsSectionStart{
-    .headingSection {
-        height: 45vh;
-        background: url(../img/newsbg.jpg) no-repeat;
-        background-size: cover;
-        background-position: center center;
-    
-        &::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            display: block;
-            background-color: $black;
-            opacity: .60;
-        }
-        & .pageheading {
-            font-size: 40px;
-            font-weight: 700;
-            color: $white;
-            @include sm {
-                font-size: 45px;
-            }
-            @include md {
-                font-size: 50px;
-            }
-            @include lg {
-                font-size: 55px;
-            }
-            @include xl {
-                font-size:60px;
-            }
-        }
-        & .headingBreadcrumb {
-            & .headingTitle {
-                font-size: 14px;
-                font-weight: 500;
-                color: $white;
-                & a {
-                    font-size: 16px;
-                    font-weight: 500;
-                    color: $white;
-                    transition: all 0.3s ease-in-out;
-                    &:hover {
-                        color: $theme2;
-                    }
-                }
-                &.active {
-                    color: lighten($black, 75);
-                    &::before {
-                        color: lighten($black, 75);
-                    }
-                }
-                @include sm {
-                    font-size: 15px;
-                }
-                @include md {
-                    font-size: 16px;
-                }
-            }
-        }
-     
-        @include sm {
-            height: 55vh;
-        }
-    }
+  
+    // & .mainHeading{
+    //     padding: 10px;
+    //     font-size: 20px;
+    //     color: $black;
+    //     font-weight: 700;
+    //     @include sm{
+    //         font-size: 22px;
+    //     }
 
+    //     @include md{
+    //         font-size: 24px;
+
+    //     }
+    // }
 
     & .sectionHeading{
         font-size: 19px;
@@ -698,7 +669,8 @@
         font-size: 12px;
         color: $black;
         font-weight: 400;
-        height: 40px;
+        height: 100px;
+
         @include sm{
             font-size: 14px;
         }
@@ -710,19 +682,22 @@
         }
     }
     & select{
+        color: lighten($black,50) !important;
         font-size: 12px;
-        color: $black;
         font-weight: 400;
-        height: 40px;
         @include sm{
             font-size: 14px;
         }
-        &::placeholder{
+        & option{
+
             color: lighten($black,50);
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 400;
-         
+            @include sm{
+                font-size: 14px;
+            }
         }
+  
     }
     & .formInput{
         font-size: 12px;
@@ -830,7 +805,7 @@
                 }
             }
             & img{
-                aspect-ratio: 1/0.7;
+                // aspect-ratio: 1/0.7;
                 overflow: hidden;
                 transition: all 0.3s ease-in-out;
                 object-fit: contain;
@@ -842,10 +817,10 @@
             justify-content: center;
             flex-direction: column;
             @include sm{
-                height: 163px;
+                height: 173px;
             }
             @include md{
-            height: 220px;  
+            height: 230px;  
 
             }
             @include lg{
@@ -853,11 +828,11 @@
 
             }
                @include xl{
-            height: 230px;
+            height: 250px;
 
             }
             @include xxl{
-            height: 250px;
+            height: 288px;
 
             }
             & .cardHeading{
@@ -865,17 +840,33 @@
                 color: $theme1;
                 font-weight: 700;
                 text-align: center;
+                text-transform: uppercase;
                 @include sm{
                     font-size: 20px;
                 }
             }
             & .content{
-              
                 text-align: center;
-                color: $black;
-                opacity: 0.7;
-                font-weight: 400;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
+    }
+}
+.ImgAbout {
+    // position: relative;
+    &::after{
+        // content: '';
+        background-image: url(./../img/dots.svg);
+        background-position: center;
+        background-size: contain;
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }

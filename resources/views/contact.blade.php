@@ -71,12 +71,12 @@
                             <div class="col-12">
                                 <div class="mb-3">
                                     <label for="textArea" class="form-label formLabel"> Brief about this topic</label>
-                                    <textarea class="form-control formInput border-0 shadow-none" placeholder="Leave a comment here" id="textArea" style="height: 100px"></textarea>
+                                    <textarea class="form-control  border-0 shadow-none" placeholder="Leave a comment here" id="textArea" style="height: 100px"></textarea>
                                 </div>
                             </div>
                             <div class="col-12 mx-auto">
                             <div class="mx-auto text-center">
-                                <button class="msmiBtn" type="submit">Submit </button>
+                                <button class=" msmiBtn    " type="submit">Submit </button>
                             </div>
                             </div>
                         </div>
