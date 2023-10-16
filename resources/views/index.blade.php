@@ -15,35 +15,35 @@
 
 <div class="heroSection container-fluid px-0 overflow-hidden">
     <div class="row">
-      <div class="col-12">
+    <div class="col-12">
         <div class="swiper mySwiper heroSwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+            <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-              </div>
-              <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-              </div>
-              <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-              </div>
-              <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
                 <div class="sliderImg">
                     <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </div>
-              </div>
+            </div>
             </div>
             {{-- <div class="swiper-button-next"> 
                 <span class="swiperIcon d-inline-flex"> 
                     <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
                 </span>
-               
+            
             </div>
             <div class="swiper-button-prev">
                 <span class="swiperIcon d-inline-flex"> 
@@ -53,7 +53,7 @@
             <div class="swiper-pagination rounded-pill"></div>
 
         </div>
-      </div>
+    </div>
     </div>
 </div>
 
@@ -80,6 +80,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 <div class="container-fluid overflow-hidden bg-light linksFluid py-4 py-md-5">
@@ -143,7 +145,126 @@
     </div>
 </div>
 
-<div class="container-fluid overflow-hidden chairmanTwoSection  py-4 py-md-5">
+{{-- <div class="container-fluid overflow-hidden chairmanFluid bg-light">
+    <div class="container position-relative">
+        <div class="row align-items-center py-4 py-md-5">
+            <div class="col-12">
+                <div class="txt text2">Muthuraman</div>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-12 order-lg-1 order-2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="heading text-center text-md-start mb-3">Dr E Muthuraman Becomes MSMEPC Chairman</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content para">17 oct 2022- New Delhi: MSMEPC gets its new chairman on 17 oct. Dr E Muthuraman who was earlier vice chairman  is nominated as Chairman on Monday by Justice K.G. Balakrishnan Former Chief Justice of India at New Delhi. On the occasion Justice K.G Balakrishnan congratulated Dr. E.Muthuraman for the same and said “I believe that you will do a great work for the MSME sector” he also added that Muthuraman is a very kind hearted and a Nobel man who will do great efforts for the betterment of the society. Dr E. Muthuraman said that he will work under the kind patronage of the Hon’ble Former CJI and will seek his blessing and guidance in future also. 
+                            He also invited Former CJI to Madhurai to seek his blessing. Justice Balakrishnan assured that he shall be planning his visit to Tamil Nadu soon and the schedule will be shared with them soon. There after a informal discussion was held between both in which they exchanged there communication and experiences, etc .
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
+                <div class="row">
+                    <div class="col-12 chairmanImg">
+                        <img src="{{ url('public/assets/img/chairmanIndex.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --}}
+
+<div class="container-fluid msmeAbout py-4 py-md-5">
+    <div class="container position-relative">
+        <div class="row align-items-center"> 
+        <div class="col-12">
+            <div class="txt text2"> MSME</div>
+        </div>
+        <div class="col-12 heading">What is MSME</div>
+            <div class="col-xxl-6 col-lg-7 order-lg-1 order-2">
+                <div class="row gap-md-4 gap-sm-3 gap-3">
+                    <div class="col-12">
+                        <div class="msmeAboutCard">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="cardIcon">
+                                        <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col ps-sm-1 ps-0">
+                                    <div class="headingmsmeAbout">MICRO</div>
+                                    <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
+                                    <div class="mt-1">
+                                        {{-- <a href="{{route('whatsmsme')}}" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                            Read More 
+                                            <span class="readIcon d-inline-flex">
+                                            <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </span>
+                                         </a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="msmeAboutCard">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="cardIcon">
+                                        <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col  ps-sm-1 ps-0">
+                                    <div class="headingmsmeAbout">SMALL</div>
+                                    <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore</div>
+                                    <div class="mt-1">
+                                        {{-- <a href="{{route('whatsmsme')}}" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                            Read More 
+                                            <span class="readIcon d-inline-flex">
+                                            <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </span>
+                                         </a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="msmeAboutCard">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="cardIcon">
+                                        <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    </div>
+                                </div>
+                                <div class="col  ps-sm-1 ps-0">
+                                    <div class="headingmsmeAbout">MEDIUM</div>
+                                    <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
+                                    <div class="mt-1">
+                                        {{-- <a href="{{route('whatsmsme')}}" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                            Read More 
+                                            <span class="readIcon d-inline-flex">
+                                            <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                            </span>
+                                         </a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-6 col-lg-5 order-lg-2 order-1">
+                <div class="aboutMsme">
+                    <img src="{{ url('public/assets/img/aboutmsme.svg')}}" alt="image" class="img-fluid w-100 h-100" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid overflow-hidden bg-light chairmanTwoSection  py-4 py-md-5">
     <div class="container position-relative">
         <div class="row justify-content-center align-items-center mx-0">
             <div class="col-12">
@@ -182,35 +303,6 @@
     </div>
 </div>
 
-
-<div class="container-fluid overflow-hidden chairmanFluid bg-light">
-    <div class="container position-relative">
-        <div class="row align-items-center py-4 py-md-5">
-            <div class="col-12">
-                <div class="txt text2">Muthuraman</div>
-            </div>
-            <div class="col-xl-6 col-lg-7 col-12 order-lg-1 order-2">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="heading text-center text-md-start mb-3">Dr E Muthuraman Becomes MSMEPC Chairman</div>
-                    </div>
-                    <div class="col-12">
-                        <div class="content para">17 oct 2022- New Delhi: MSMEPC gets its new chairman on 17 oct. Dr E Muthuraman who was earlier vice chairman  is nominated as Chairman on Monday by Justice K.G. Balakrishnan Former Chief Justice of India at New Delhi. On the occasion Justice K.G Balakrishnan congratulated Dr. E.Muthuraman for the same and said “I believe that you will do a great work for the MSME sector” he also added that Muthuraman is a very kind hearted and a Nobel man who will do great efforts for the betterment of the society. Dr E. Muthuraman said that he will work under the kind patronage of the Hon’ble Former CJI and will seek his blessing and guidance in future also. 
-                            {{-- He also invited Former CJI to Madhurai to seek his blessing. Justice Balakrishnan assured that he shall be planning his visit to Tamil Nadu soon and the schedule will be shared with them soon. There after a informal discussion was held between both in which they exchanged there communication and experiences, etc . --}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-5 col-12 order-lg-2 order-1 mb-lg-0 mb-4">
-                <div class="row">
-                    <div class="col-12 chairmanImg">
-                        <img src="{{ url('public/assets/img/chairmanIndex.png')}}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="container-fluid blogsectionSecond py-4 py-md-5">
     <div class="container position-relative">
