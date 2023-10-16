@@ -128,10 +128,10 @@
                 <div class="mainHeading text-center ">MSME NEWS</div>
             </div>
             <div class="col-12">
-                <div class="row gap-lg-0 gap-4 mx-0">
+                <div class="row gap-lg-0 gap-0 mx-0">
                     <div class="col-lg-6 px-lg-1 px-0">
-                        <div class="row  ">
-                            <div class="col-lg-11  mx-auto  tableSection table-responsive">
+                        <div class="row  mx-0">
+                            <div class="col-lg-11 px-lg-1 px-0  mx-auto overflow-hidden  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
@@ -192,8 +192,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 px-lg-1 px-0 ">
-                        <div class="row ">
-                            <div class="col-lg-11  mx-auto  tableSection table-responsive">
+                        <div class="row mx-0 ">
+                            <div class="col-lg-11 px-lg-1 px-0  mx-auto  tableSection overflow-hidden table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
