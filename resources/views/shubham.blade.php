@@ -790,6 +790,27 @@
     {{-- about section Ends --}}
     
     {{-- cta section start --}}
+        <div class="container-fluid py-5">
+            <div class="container ctasection rounded-3 overflow-hidden">
+                <div class="row align-items-center h-100 justify-content-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="Maincontent">
+                            <div class="heading text-center text-lg-start">
+                                Let's talk
+                            </div>
+                            <div class="content text-center text-lg-start">
+                                Don't Find what you are looking For? we'd love to hear from You
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="btndiv text-center pt-4 pt-lg-0">
+                            <a href="javascript:;" type="button" class="msmiBtn text-decoration-none">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     {{-- cta section Ends --}}
 
 
