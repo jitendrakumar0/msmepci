@@ -671,7 +671,7 @@
     <div class="container-fluid msmeAbout py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-1 order-2">
+                <div class="col-xxl-6 col-lg-7 order-lg-1 order-2">
                     <div class="row gap-md-5 gap-sm-4 gap-3">
                         <div class="col-12">
                             <div class="msmeAboutCard">
@@ -744,7 +744,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-2 order-1">
+                <div class="col-xxl-6 col-lg-5 order-lg-2 order-1">
                     <div class="aboutMsme">
                         <img src="{{ url('public/assets/img/aboutmsme.svg')}}" alt="image" class="img-fluid w-100 h-100" />
                     </div>
