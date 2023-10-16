@@ -237,12 +237,13 @@ body{
     color: rgba(0, 0, 0, 0.05);
     font-weight: 700;
     line-height: 1;
-    z-index: 5;
+    z-index: 1;
     display: none;
     white-space: noWrap;
     top: 50%;
     transform: translateY(-50%);
     writing-mode: vertical-lr;
+    text-transform: uppercase;
     &.textLeft{
         left: 10px;
     }
@@ -275,4 +276,9 @@ body{
     //     width: 192px;
     //     height: 68px;
     // }
+}
+
+.commonContainer{
+    position: relative;
+    z-index: 2;
 }

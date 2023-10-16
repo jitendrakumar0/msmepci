@@ -57,12 +57,10 @@
     </div>
 </div>
 
-<div class="container-fluid   position-relative py-4 py-md-5 ">
-    <div class="container">
+<div class="container-fluid  position-relative py-4 py-md-5 ">
+    <div class="txt textLeft">About Us</div>
+    <div class="container commonContainer">
         <div class="row align-items-center">
-            <div class="col-12">
-                <div class="txt textLeft">About Us</div>
-            </div>
             <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
                 <div class="aboutImg d-flex justify-content-center">
                     <img class="" src="{{ url('public/assets/img/about.png')}}" alt="">
@@ -85,11 +83,9 @@
 
 
 <div class="container-fluid position-relative overflow-hidden bg-light linksFluid py-4 py-md-5">
-    <div class="container ">
+    <div class="txt textRyt">RESOURCES</div>
+    <div class="container commonContainer">
         <div class="row g-3 mx-0">
-            <div class="col-12">
-                <div class="txt textRyt">Resources</div>
-            </div>
             <div class="col-12 text-center mb-3">
                 <div class="heading">Explore MSME PCI Resources</div>
             </div>
@@ -175,11 +171,9 @@
 </div> --}}
 
 <div class="container-fluid msmeAbout position-relative py-4 py-md-5">
-    <div class="container ">
+    <div class="txt textLeft">MSME</div>
+    <div class="container commonContainer">
         <div class="row align-items-center"> 
-        <div class="col-12">
-            <div class="txt textLeft"> MSME</div>
-        </div>
             <div class="col-xxl-6 col-lg-7 order-lg-1 order-2">
                 <div class="row gap-md-4 gap-sm-3 gap-3">
                     <div class="col-12">
@@ -265,11 +259,9 @@
 
 
 <div class="container-fluid overflow-hidden position-relative bg-light chairmanTwoSection  py-4 py-md-5">
-    <div class="container ">
+    <div class="txt textRyt">Chairman</div>
+    <div class="container commonContainer">
         <div class="row justify-content-center align-items-center mx-0">
-            <div class="col-12">
-                <div class="txt textRyt">Chairman</div>
-            </div>
             <div class="col-lg-6 col-12">
                 <div class="row justify-content-center mx-0">
                     <div class="col-12 px-0">
@@ -305,15 +297,13 @@
 
 
 <div class="container-fluid position-relative blogsectionSecond py-4 py-md-5">
-    <div class="container ">
+    <div class="txt textLeft">Blogs</div>
+    <div class="container commonContainer">
         <div class="row mb-2 mb-md-5">
-            <div class="col-12">
-                <div class="txt textLeft">Blogs</div>
-            </div>
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="heading d-none d-sm-block mb-0">Our Blogs</div>
                 <div class="heading d-block d-sm-none mb-0">Blogs</div>
-                <a href="" class="allBlog">All Blog <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a>
+                <a href="{{route('blog')}}" class="allBlog">All Blog <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a>
             </div>
         </div>
         <div class="row gy-3 gy-sm-4">
