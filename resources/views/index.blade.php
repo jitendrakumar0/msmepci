@@ -71,7 +71,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="row text-center text-lg-start">
                     <div class="col-12"><div class="heading">About Us</div></div>
-                    <div class="col-12"><div class="content">The Micro, Small and Medium Enterprises (MSME) sector has emerged as a highly vibrant and dynamic sector of the Indian economy over the last five decades. It contributes significantly in the economic and social development of the country by fostering entrepreneurship and generating largest employment opportunities at comparatively lower capital cost, next only to agriculture.<div class="brClaas"> MSMEs are complementary to large industries as ancillary units and this sector contributes significantly in the inclusive industrial development of the country. </div></div></div>
+                    <div class="col-12"><div class="content">The Micro, Small and Medium Enterprises (MSME) sector has emerged as a highly vibrant and dynamic sector of the Indian economy over the last five decades. It contributes significantly in the economic and social development of the country by fostering entrepreneurship and generating largest employment opportunities at comparatively lower capital cost, next only to agriculture.<div class="brClaas"> MSMEs are complementary to large industries as ancillary units and this sector contributes significantly in the inclusive industrial development of the country. The MSMEPC is registered under udyam registration of MSME department, Government of India. The Council will be working in close association with the Ministry to assist the MSME units in their efforts. </div></div></div>
                     <a href="{{route('about')}}" class="col-12 mt-3">
                         <button class="msmiBtn">Read More</button>
                     </a>
@@ -105,7 +105,7 @@
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="row linkWrapper mx-0 position">
-                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/database.svg')}}" alt=""></div></div>
+                    <div class="col-12 px-0"><div class="linksIcon"><img src="{{ url('public/assets/img/Database.svg')}}" alt=""></div></div>
                     <div class="col-12 px-0"><a href="https://www.msmedatabank.in/" class="linksText  d-flex align-items-center ">MSME DATABASE <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a></div>
                 </div>
             </div>

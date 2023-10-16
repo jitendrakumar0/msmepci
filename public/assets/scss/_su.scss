@@ -312,13 +312,13 @@
             z-index: 10;
             height: 100%;
             & .cardImg{
-                aspect-ratio: 1/1;
+                aspect-ratio: 1/0.7;
                 & img{
                     object-fit: cover;
                 }
             }
             & .content{
-                padding: 10px 30px;
+                padding: 20px 30px;
                 & .threeDiv{
                     & .threeImg{
                         & .roundedImg{
