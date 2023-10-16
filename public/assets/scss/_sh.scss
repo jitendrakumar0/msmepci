@@ -862,3 +862,61 @@
         right: 0;
     }
 }
+
+// about page msme 
+
+.msmeAbout{
+    & .msmeAboutCard{
+        & .cardIcon{
+            width: 20px;
+            height: 20px;
+            @include sm{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        & .headingmsmeAbout{
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 700;
+            color: $black;
+            @include sm{
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        & .readBtn{
+            font-size: 12px;
+            font-weight: 600;
+            color: $theme1;
+            transition: all 0.3s ease-in-out;
+            width: fit-content;
+            @include sm{
+                font-size: 14px;
+
+                &:hover{
+                    & .readIcon{
+                        transform:translateX(5px);
+                    }
+                }
+            }
+            & .readIcon{
+                width: 18px;
+                height: 18px;
+                margin-left: 2px;
+                transition: all 0.3s ease-in-out;
+                @include sm{
+                    width: 20px;
+                    height: 20px;
+                }
+
+            }
+        }
+    }
+    & .aboutMsme{
+        aspect-ratio: 1/1;
+        & img{
+            object-fit: contain;
+        }
+    }
+}

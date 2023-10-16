@@ -668,7 +668,90 @@
     </div>
 
 
-    <div class=" msmeAbout"></div>
+    <div class="container-fluid msmeAbout py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="row gap-md-5 gap-sm-4 gap-3">
+                        <div class="col-12">
+                            <div class="msmeAboutCard">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="cardIcon">
+                                            <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                        </div>
+                                    </div>
+                                    <div class="col ps-sm-1 ps-0">
+                                        <div class="headingmsmeAbout">MICRO</div>
+                                        <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
+                                        <div class="mt-1">
+                                            <a href="javascript:;" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                                Read More 
+                                                <span class="readIcon d-inline-flex">
+                                                <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                                </span>
+                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="msmeAboutCard">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="cardIcon">
+                                            <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                        </div>
+                                    </div>
+                                    <div class="col  ps-sm-1 ps-0">
+                                        <div class="headingmsmeAbout">SMALL</div>
+                                        <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.10 crore and Annual Turnover ; not more than Rs. 50 crore</div>
+                                        <div class="mt-1">
+                                            <a href="javascript:;" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                                Read More 
+                                                <span class="readIcon d-inline-flex">
+                                                <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                                </span>
+                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="msmeAboutCard">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="cardIcon">
+                                            <img src="{{ url('public/assets/img/checka.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                        </div>
+                                    </div>
+                                    <div class="col  ps-sm-1 ps-0">
+                                        <div class="headingmsmeAbout">MEDIUM</div>
+                                        <div class="content py-2">Investment in Plant and Machinery or Equipment: Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
+                                        <div class="mt-1">
+                                            <a href="javascript:;" class=" text-decoration-none d-flex align-items-center  readBtn">
+                                                Read More 
+                                                <span class="readIcon d-inline-flex">
+                                                <img src="{{ url('public/assets/img/Arrow.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                                </span>
+                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="aboutMsme">
+                        <img src="{{ url('public/assets/img/aboutmsme.svg')}}" alt="image" class="img-fluid w-100 h-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection
 
