@@ -30,7 +30,7 @@
     </div>
 </div>
 <!-- page heading section end -->
-<div class="container-fluid aboutUs py-4 py-md-5">
+<div class="container-fluid aboutUs  py-4 py-md-5">
     <div class="container position-relative">
         <div class="row ">
             {{-- <div class="col-sm-12 text-center">
@@ -39,7 +39,7 @@
                 </div>
             </div> --}}
 
-            <div class="col-lg-10 mx-auto">
+            <div class="col-lg-10 mx-auto" style="text-align: justify">
                 <div class="ImgAbout rounded-2 overflow-hidden">
                     <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
                 </div>

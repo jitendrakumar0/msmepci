@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="footerheading fw-semibold ">
+                {{-- <div class="footerheading ">
                     Get In Touch
                 </div> --}}
                 {{-- <ul class="d-flex flex-column ">
@@ -51,7 +51,7 @@
                 </ul> --}}
             </div>
             <div class="col-lg-3 col-md-6 col-12  mb-3 mb-lg-0">
-                <div class="footerheading fw-semibold ">
+                <div class="footerheading ">
                     Official Login 
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
@@ -67,7 +67,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
-                <div class="footerheading fw-semibold ">
+                <div class="footerheading ">
                     Useful Links
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-2 col-md-6 col-12 mb-0 mb-lg-0">
                 <div class="">
-                    <div class="footerheading fw-semibold ">
+                    <div class="footerheading ">
                         Social Links
                     </div>
                     <ul class="d-flex align-items-center socialmedia list-unstyled gap-2 mb-0">

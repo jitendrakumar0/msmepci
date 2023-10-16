@@ -106,25 +106,23 @@
     </div>
 </div>
 
-<div class="container-fluid  newsSectionStart">
+<div class="container-fluid  newsSectionStart pb-4 pb-md-5">
     <div class="container">
-        <div class="row gap-lg-5 gap-md-4 gap-3">
-            {{-- <div class="col-sm-12 text-center">
-                <div class="common-heading ">
-                    <div><span>News Section</span> </div>
-                </div>
-            </div> --}}
-            <div class="col-12 py-5">
+        <div class="row gap-lg-4  gap-3">
+            <div class="col-12">
+                <div class="heading text-center ">MSME NEWS</div>
+            </div>
+            <div class="col-12">
                 <div class="row gap-lg-0 gap-4">
                     <div class="col-lg-6 ">
                         <div class="row ">
                             <div class="col-lg-11 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
-                                    <thead>
+                                    {{-- <thead>
                                         <tr>
                                             <th scope="col" class="text-nowrap ">MSME  NEWS</th>
                                         </tr>
-                                    </thead>
+                                    </thead> --}}
                                     <tbody>
                                         <tr>
                                             <td><a href="http://dhunt.in/Cj0qk" class=" text-decoration-none d-flex align-items-center content">http://dhunt.in/Cj0qk</a></td>
@@ -182,11 +180,11 @@
                         <div class="row ">
                             <div class="col-lg-11 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
-                                    <thead>
+                                    {{-- <thead>
                                         <tr>
                                             <th scope="col" class="text-nowrap">MSME  NEWS</th>
                                         </tr>
-                                    </thead>
+                                    </thead> --}}
                                     <tbody>
                                         <tr>
                                             <td><a href="https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/" class=" text-decoration-none d-flex align-items-center content">https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/</a></td>
@@ -243,11 +241,77 @@
                      
                         </div>
                     </div>
+                    {{-- <div class="col-lg-4 ps-lg-5">
+                        <div class="sideNav">
+                            <div class="row gap-2">
+                                <div class="col-12">
+                                    <div class="imgTime ">
+                                        <img src="{{ url('public/assets/img/timesnews.webp')}}" alt="about us" class=" img-fluid w-100 h-100 overflow-hidden ">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="modiIMg rounded-3">
+                                        <img src="{{ url('public/assets/img/modi.webp')}}" alt="about us" class=" img-fluid w-100 h-100 rounded-3">
+                                    </div>
+                                    <div class="newsHeading mt-2">'Powered By...': PM Modi On IMF Raising India's FY24 GDP Growth Forecast To 6.3%</div>
+                                    <div class=" d-flex align-items-center justify-content-between mt-3" >
+                                        <ul class="list-unstyled d-flex gap-2 align-items-center mb-0 ">
+                                            <li class="shareWrpTxt">4hr</li>
+                                            <li class="shareWrpSprtr"></li>
+                                            <li class="shareWrpTxt">375 shares</li>
+                                        </ul>
+                                        <ul class="list-unstyled d-flex gap-1 mb-0 ">
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_whtsapp.svg')}}" alt="whats  app" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_fb.svg')}}" alt="facebook" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_tweet.svg')}}" alt="twitter" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="contentNews mt-2">
+                                        New Delhi: Prime Minister Narendra Modi reacted to International Monetary Fund's (IMF) report forecasting India's economic growth for the current fiscal year at 6.3%. The (IMF) report improved India's economic growth for the current fiscal year to 6.3% from 6.1% earlier.Prime Minister Narendra Modi called the country a global bright spot.
+                                    </div>
+                                    <div class="contentNews mt-2">
+                                        "Powered by the strength and skills of our people, India is a global bright spot, a powerhouse of growth and innovation. We will continue to strengthen our journey towards a prosperous India, further boosting our reforms trajectory," tweeted PM Modi.
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="modiIMg rounded-3">
+                                        <img src="{{ url('public/assets/img/hindustanmetro.webp')}}" alt="about us" class=" img-fluid w-100 h-100 rounded-3">
+                                    </div>
+                                    <div class="newsHeading mt-2">Dr.E Muthuraman visited FICCI headquarters in New Delhi over a discussion for MSMEPC</div>
+                                    <div class=" d-flex align-items-center justify-content-between mt-3" >
+                                        <ul class="list-unstyled d-flex gap-2 align-items-center mb-0 ">
+                                            <li class="shareWrpTxt">377d</li>
+                                            <li class="shareWrpSprtr"></li>
+                                            <li class="shareWrpTxt">35 shares</li>
+                                        </ul>
+                                        <ul class="list-unstyled d-flex gap-1 mb-0 ">
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_whtsapp.svg')}}" alt="whats  app" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_fb.svg')}}" alt="facebook" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+                                            <li><a href="javascript:;" class=" text-decoration-none d-flex align-items-center content socialIcon"><img src="{{ url('public/assets/img/share_tweet.svg')}}" alt="twitter" class=" img-fluid w-100 h-100 rounded-3"></a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="contentNews mt-2">
+                                        NEW DELHI 27 September : Dr. E Muthuraman Vice Chairman MSMEPC along with others visited Ficci at its National Headquarters at Tansen Marg , New Delhi. Ficci was established in 1927, It is the largest and oldest apex business organisation in India. Its history is closely interwoven with India’s struggle for independence, its industrialization, and its emergence as one of the most rapidly growing global economies.
+                                    </div>
+                                    <div class="contentNews mt-2">
+                                        A non-government, not-for-profit organisation, It is the voice of India’s business and industry. From influencing policy to encouraging debate, engaging with policy makers and civil society, It articulates the views and concerns of industry.
+                                    </div>
+                                    <div class="contentNews mt-2">
+                                        Mr. Muthuraman added that MSMEPC will join hands will every organisation working in this sector to promote the micro and small industry, he also stated that we aim to achieve Hon’ble PM Modi’s vission of Atmanirbhar Bharat.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> --}}
+                
                 </div>
             </div>
         </div>
     </div>
-</div>
+  </div>
 {{-- glight Section Ends --}}
 
 
