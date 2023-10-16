@@ -214,9 +214,13 @@
 
 <div class="container-fluid blogsectionSecond py-4 py-md-5">
     <div class="container position-relative">
-        <div class="row mb-2">
+        <div class="row mb-2 mb-md-5">
+            <div class="col-12">
+                <div class="txt text5">Blogs</div>
+            </div>
             <div class="col-12 d-flex justify-content-between align-items-center">
-                <div class="heading mb-0">Blog</div>
+                <div class="heading d-none d-sm-block mb-0">Explore Our Blogs</div>
+                <div class="heading d-block d-sm-none mb-0">Blogs</div>
                 <a href="" class="allBlog">All Blog <img src="{{ url('public/assets/img/rytArrow.svg')}}" alt=""></a>
             </div>
         </div>

@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-auto"><img class="footerIcons" src="{{ url('public/assets/img/navbar/Location.svg')}}" alt="">
+                            <div class="col-auto"><img class="footerIcons" src="{{ url('public/assets/img/navbar/location.svg')}}" alt="">
                             </div>
                             <div class="col ps-0">
                                 <div class="address mb-2">6th floor Bhikaji Cama bhawan Bhikaji Cama Place New Delhi 110066</div>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-auto"><img class="footerIcons" src="{{ url('public/assets/img/navbar/Email.svg')}}" alt="">
+                            <div class="col-auto"><img class="footerIcons" src="{{ url('public/assets/img/navbar/email.svg')}}" alt="">
                             </div>
                             <div class="col ps-0">
                                 <div class=" address"><a href="javascript:;" class="address">Office@msmepci.com</a></div>
@@ -113,8 +113,8 @@
 <div class="container-fluid bg-black">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center pb-2">
-                <div class="copyrytTxt">MSME PROMOTION COUNCIL © 2022 CREATED BY DOIT(Department of Information and technology)  MSMEPCI</div>
+            <div class="col-12 text-center pb-3">
+                <div class="copyrytTxt">MSME PROMOTION COUNCIL © 2023 CREATED BY DOIT(Department of Information and technology)  MSMEPCI</div>
             </div>
         </div>
     </div>

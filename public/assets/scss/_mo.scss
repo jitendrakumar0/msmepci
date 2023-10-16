@@ -217,7 +217,7 @@
 // footer start 
 .footer {
     & .footerlogo {
-        height: 40px;
+        height: 45px;
     }
     & .footerIcons{
         width: 18px;
@@ -232,7 +232,7 @@
         & .socialicon {
             height: 35px;
             width: 35px;
-            padding: 12px;
+            padding: 10px;
             background-color: $theme3;
             // border: 1px solid $theme1;
             // &::before {
@@ -276,8 +276,8 @@
     }
     & .address{ 
         color: $white !important; 
-        opacity: 0.8;  
-        line-height: normal;
+        opacity: 0.95;  
+        line-height: 1.6;
         font-size: 14px;
         @include sm{
         }
@@ -306,9 +306,9 @@
     //         line-height: normal;
     // }
     & .footerheading {
-        font-size: 19px;
+        font-size: 18px;
         line-height: normal;
-        opacity: 0.8;  
+        opacity: 0.85;  
         margin-bottom: 15px;
         color: $white;
     }
@@ -316,7 +316,8 @@
         font-size: 14px;
         color: $white;
         transition: all 0.3s ease-in-out;
-        opacity: 0.8;
+        opacity: 0.95;
+        line-height: 1.6;
         // &::before {
         //     content: '';
         //     position: absolute;
