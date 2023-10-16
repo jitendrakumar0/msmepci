@@ -58,98 +58,7 @@
     </div>
 </div>
 
-      {{-- <div class="col-12">
-        <div class="swiper mySwiper heroSwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="sliderImg">
-                    <img src="  {{ url('public/assets/img/herosection/one.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next"> 
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-               
-            </div>
-            <div class="swiper-button-prev">
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-            </div>
-            <div class="swiper-pagination"></div>
 
-        </div>
-        <div class="swiper mySwiper heroSwipers">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="sliderImg">
-                    <img src="  {{ url('public/assets/img/herosection/two.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next"> 
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-               
-            </div>
-            <div class="swiper-button-prev">
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-            </div>
-            <div class="swiper-pagination"></div>
-
-        </div>
-        <div class="swiper mySwiper heroSwipert">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="sliderImg">
-                    <img src="  {{ url('public/assets/img/herosection/three.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next"> 
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-               
-            </div>
-            <div class="swiper-button-prev">
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-            </div>
-            <div class="swiper-pagination"></div>
-
-        </div>
-        <div class="swiper mySwiper heroSwiperf">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="sliderImg">
-                    <img src="  {{ url('public/assets/img/herosection/four.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next"> 
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/rightarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-               
-            </div>
-            <div class="swiper-button-prev">
-                <span class="swiperIcon d-inline-flex"> 
-                    <img src="  {{ url('public/assets/img/herosection/leftarrownav.png')}}" alt="heroImg" class="img-fluid w-100 h-100">
-                </span>
-            </div>
-            <div class="swiper-pagination"></div>
-
-        </div>
-      </div> --}}
-    </div>
-  </div>
   {{-- hero section end  --}}
 
   {{-- about us section start  --}}
@@ -214,11 +123,9 @@
 
   <div class="container-fluid  newsSectionStart">
     <div class="container">
-        <div class="row gap-lg-5 gap-md-4 gap-3">
-            <div class="col-sm-12 text-center">
-                <div class="common-heading ">
-                    <div><span>News Section</span> </div>
-                </div>
+        <div class="row gap-lg-4  gap-3">
+            <div class="col-12">
+                <div class="heading text-center ">MSME NEWS</div>
             </div>
             <div class="col-12">
                 <div class="row gap-lg-0 gap-4">
@@ -226,11 +133,11 @@
                         <div class="row ">
                             <div class="col-lg-11 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
-                                    <thead>
+                                    {{-- <thead>
                                         <tr>
                                             <th scope="col" class="text-nowrap ">MSME  NEWS</th>
                                         </tr>
-                                    </thead>
+                                    </thead> --}}
                                     <tbody>
                                         <tr>
                                             <td><a href="http://dhunt.in/Cj0qk" class=" text-decoration-none d-flex align-items-center content">http://dhunt.in/Cj0qk</a></td>
@@ -288,11 +195,11 @@
                         <div class="row ">
                             <div class="col-lg-11 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
-                                    <thead>
+                                    {{-- <thead>
                                         <tr>
                                             <th scope="col" class="text-nowrap">MSME  NEWS</th>
                                         </tr>
-                                    </thead>
+                                    </thead> --}}
                                     <tbody>
                                         <tr>
                                             <td><a href="https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/" class=" text-decoration-none d-flex align-items-center content">https://entrepreneurstreet.in/dr-e-muthuraman-becomes-msmepc-chairman/</a></td>
@@ -566,7 +473,7 @@
                                 <div class="col-12">
                                     <div class="mb-3">
                                         <label for="textArea" class="form-label formLabel"> Brief about this topic</label>
-                                        <textarea class="form-control formInput border-0 shadow-none" placeholder="Leave a comment here" id="textArea" style="height: 100px"></textarea>
+                                        <textarea class="form-control  border-0 shadow-none" placeholder="Leave a comment here" id="textArea" style="height: 100px"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 mx-auto">
