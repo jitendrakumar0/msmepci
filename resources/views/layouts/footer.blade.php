@@ -114,7 +114,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center pb-2">
-                <div class="copyrytTxt">MSME PROMOTION COUNCIL <span> © 2022 CREATED BY </span>IMG Global Infotech</div>
+                <div class="copyrytTxt">MSME PROMOTION COUNCIL © 2022 CREATED BY DOIT(Department of Information and technology)  MSMEPCI</div>
             </div>
         </div>
     </div>
