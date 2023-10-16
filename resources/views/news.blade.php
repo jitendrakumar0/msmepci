@@ -14,7 +14,7 @@
 
 <div class="container-fluid headingSection newsSection  contactheading position-relative">
     <div class="h-100 d-flex align-items-center position-relative z-1">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-12 pageheading text-center">News</div>
                 <div class="col-12">
@@ -106,17 +106,20 @@
     </div>
 </div>
 
-<div class="container-fluid  newsSectionStart pb-4 pb-md-5">
-    <div class="container">
+<div class="container-fluid newsSectionStart pb-4 pb-md-5">
+    <div class="container position-relative">
         <div class="row gap-lg-4  gap-3">
             <div class="col-12">
+                <div class="txt text4">News</div>
+            </div>
+            <div class="col-12 ">
                 <div class="heading text-center ">MSME NEWS</div>
             </div>
             <div class="col-12">
-                <div class="row gap-lg-0 gap-4">
-                    <div class="col-lg-6 ">
-                        <div class="row ">
-                            <div class="col-lg-11 mx-auto  tableSection table-responsive">
+                <div class="row gap-lg-0 gap-4 mx-0">
+                    <div class="col-lg-6 px-lg-1 px-0">
+                        <div class="row  mx-0">
+                            <div class="col-lg-11 px-0 mx-auto px-lg-1  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
@@ -176,9 +179,9 @@
                      
                         </div>
                     </div>
-                    <div class="col-lg-6 ">
-                        <div class="row ">
-                            <div class="col-lg-11 mx-auto  tableSection table-responsive">
+                    <div class="col-lg-6 px-lg-1 px-0 ">
+                        <div class="row mx-0">
+                            <div class="col-lg-11  px-0 px-lg-1 mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
@@ -311,7 +314,7 @@
             </div>
         </div>
     </div>
-  </div>
+</div>
 {{-- glight Section Ends --}}
 
 

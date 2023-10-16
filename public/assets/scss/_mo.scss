@@ -54,6 +54,7 @@
             & .navbarlink {
                 font-size: 13px;
                 color: $black;
+                font-weight: 700 !important;
                 text-transform: uppercase;
                 transition: all 0.3s ease-in-out;
                 &:hover {
@@ -278,7 +279,6 @@
         opacity: 0.8;  
         line-height: normal;
         font-size: 14px;
-        font-weight: 500;
         @include sm{
         }
         @include md{
@@ -316,6 +316,7 @@
         font-size: 14px;
         color: $white;
         transition: all 0.3s ease-in-out;
+        opacity: 0.8;
         // &::before {
         //     content: '';
         //     position: absolute;

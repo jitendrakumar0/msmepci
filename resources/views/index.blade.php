@@ -72,9 +72,9 @@
                 <div class="row text-center text-lg-start">
                     <div class="col-12"><div class="heading">About Us</div></div>
                     <div class="col-12"><div class="content">The Micro, Small and Medium Enterprises (MSME) sector has emerged as a highly vibrant and dynamic sector of the Indian economy over the last five decades. It contributes significantly in the economic and social development of the country by fostering entrepreneurship and generating largest employment opportunities at comparatively lower capital cost, next only to agriculture.<div class="brClaas"> MSMEs are complementary to large industries as ancillary units and this sector contributes significantly in the inclusive industrial development of the country. </div></div></div>
-                    <div class="col-12 mt-3">
+                    <a href="{{route('about')}}" class="col-12 mt-3">
                         <button class="msmiBtn">Read More</button>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
