@@ -19,7 +19,7 @@
                 <div class="col-12 pageheading text-center">About Us</div>
                 <div class="col-12">
                     <nav aria-label="breadcrumb" class="headingBreadcrumb">
-                        <ol class="breadcrumb justify-content-center">
+                        <ol class="breadcrumb justify-content-center align-items-center mb-0">
                             <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
                             <li class="breadcrumb-item headingTitle active" aria-current="page">About  Us</li>
                         </ol>

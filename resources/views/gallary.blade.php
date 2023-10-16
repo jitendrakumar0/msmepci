@@ -44,7 +44,7 @@
 </div>
 
 {{-- glight Section Start --}}
-<div class="container-fluid gallarySection px-0  pt-sm-4 pt-lg-5 pt-4 pb-0 ">
+<div class="container-fluid gallarySection px-0 py-lg-5 pt-sm-4 pt-lg-5 pt-4 pb-0 ">
     <div class="container">
         <div class="row gy-4">
             <div class="col-12">
@@ -196,6 +196,11 @@
 {{-- gallary Page Ends --}}
 @endsection
 
-
 @push('scripts')
+
+<script>
+    GLightbox({
+    selector: '.gallary'
+    })
+</script>
 @endpush

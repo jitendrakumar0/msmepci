@@ -1,12 +1,12 @@
 {{-- footer start  --}}
-<footer class="container-fluid overflow-hidden footer py-4 py-md-5">
+<footer class="container-fluid overflow-hidden bg-black footer py-4 py-md-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12  mb-3 mb-lg-0">
                 <div class="row">
                     <div class="col-12">
                         <a href="javascript:;" class="text-decoration-none mb-3 footerlogo d-inline-flex align-items-center justify-content-center">
-                            <img src="{{ url('public/assets/img/navbar/msmepc-logo.png')}}" alt="logo" class="h-100 w-100 img-fluid">
+                            <img src="{{ url('public/assets/img/logo.svg')}}" alt="logo" class="h-100 w-100 img-fluid">
                         </a>
                     </div>
                     <div class="col-12">
@@ -110,7 +110,7 @@
 
     </div>
 </footer>
-<div class="container-fluid">
+<div class="container-fluid bg-black">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center pb-2">

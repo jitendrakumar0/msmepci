@@ -26,10 +26,10 @@
                         <div class="msmeCardWhat">
                             <div class=" card-header">
                                 <div class="cardImg">
-                                    <img src="{{ url('public/assets/img/smallone.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    <img src="{{ url('public/assets/img/micro.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
                                 </div>
                             </div>
-                            <div class="cardContent px-sm-3">
+                            <div class="cardContent">
                                 <div class="cardHeading my-2">Micro</div>
                                 <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
                                 {{-- <div class="content">Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div> --}}
@@ -40,7 +40,7 @@
                         <div class="msmeCardWhat">
                             <div class=" card-header d-sm-none d-block">
                                 <div class="cardImg">
-                                    <img src="{{ url('public/assets/img/medium.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    <img src="{{ url('public/assets/img/msme.png')}}" alt="image" class="img-fluid w-100 h-100" />
                                 </div>
                             </div>
                             <div class="cardContent px-sm-3">
@@ -50,7 +50,7 @@
                             </div>
                             <div class=" card-header d-sm-block d-none">
                                 <div class="cardImg">
-                                    <img src="{{ url('public/assets/img/medium.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    <img src="{{ url('public/assets/img/msme.png')}}" alt="image" class="img-fluid w-100 h-100" />
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="msmeCardWhat">
                             <div class=" card-header">
                                 <div class="cardImg">
-                                    <img src="{{ url('public/assets/img/smalltwo.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
+                                    <img src="{{ url('public/assets/img/medium.png')}}" alt="image" class="img-fluid w-100 h-100" />
                                 </div>
                             </div>
                             <div class="cardContent px-sm-3">
