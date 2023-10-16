@@ -19,7 +19,7 @@
                 <div class="col-12 pageheading text-center">About Us</div>
                 <div class="col-12">
                     <nav aria-label="breadcrumb" class="headingBreadcrumb">
-                        <ol class="breadcrumb justify-content-center">
+                        <ol class="breadcrumb justify-content-center align-items-center mb-0">
                             <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
                             <li class="breadcrumb-item headingTitle active" aria-current="page">About  Us</li>
                         </ol>
@@ -30,16 +30,16 @@
     </div>
 </div>
 <!-- page heading section end -->
-<div class="container-fluid aboutUs pt-4 pt-md-5">
-    <div class="container">
-        <div class="row gap-5">
+<div class="container-fluid aboutUs  py-4 py-md-5">
+    <div class="container position-relative">
+        <div class="row ">
             {{-- <div class="col-sm-12 text-center">
                 <div class="common-heading ">
                     <div><span>About Us</span> </div>
                 </div>
             </div> --}}
 
-            <div class="col-lg-10 mx-auto">
+            <div class="col-lg-10 mx-auto" style="text-align: justify">
                 <div class="ImgAbout rounded-2 overflow-hidden">
                     <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
                 </div>

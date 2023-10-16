@@ -29,12 +29,12 @@
     <div class="h-100 d-flex align-items-center position-relative z-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 pageheading text-center">Gallary</div>
+                <div class="col-12 pageheading text-center">Gallery</div>
                 <div class="col-12">
                     <nav aria-label="breadcrumb" class="headingBreadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
-                            <li class="breadcrumb-item headingTitle active" aria-current="page">Gallary</li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">Gallery</li>
                         </ol>
                     </nav>
                 </div>
@@ -44,7 +44,7 @@
 </div>
 
 {{-- glight Section Start --}}
-<div class="container-fluid gallarySection px-0  pt-sm-4 pt-lg-5 pt-4 pb-0 ">
+<div class="container-fluid gallarySection px-0 py-lg-5 pt-sm-4 pt-lg-5 pt-4 pb-0 ">
     <div class="container">
         <div class="row gy-4">
             <div class="col-12">
@@ -196,6 +196,11 @@
 {{-- gallary Page Ends --}}
 @endsection
 
-
 @push('scripts')
+
+<script>
+    GLightbox({
+    selector: '.gallary'
+    })
+</script>
 @endpush

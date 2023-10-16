@@ -1,12 +1,12 @@
 {{-- footer start  --}}
-<footer class="container-fluid overflow-hidden footer py-4 py-md-5">
+<footer class="container-fluid overflow-hidden bg-black footer py-4 py-md-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12  mb-3 mb-lg-0">
                 <div class="row">
                     <div class="col-12">
                         <a href="javascript:;" class="text-decoration-none mb-3 footerlogo d-inline-flex align-items-center justify-content-center">
-                            <img src="{{ url('public/assets/img/navbar/msmepc-logo.png')}}" alt="logo" class="h-100 w-100 img-fluid">
+                            <img src="{{ url('public/assets/img/logo.svg')}}" alt="logo" class="h-100 w-100 img-fluid">
                         </a>
                     </div>
                     <div class="col-12">
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="footerheading fw-semibold ">
+                {{-- <div class="footerheading ">
                     Get In Touch
                 </div> --}}
                 {{-- <ul class="d-flex flex-column ">
@@ -51,7 +51,7 @@
                 </ul> --}}
             </div>
             <div class="col-lg-3 col-md-6 col-12  mb-3 mb-lg-0">
-                <div class="footerheading fw-semibold ">
+                <div class="footerheading ">
                     Official Login 
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
@@ -67,7 +67,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg-0">
-                <div class="footerheading fw-semibold ">
+                <div class="footerheading ">
                     Useful Links
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-2 col-md-6 col-12 mb-0 mb-lg-0">
                 <div class="">
-                    <div class="footerheading fw-semibold ">
+                    <div class="footerheading ">
                         Social Links
                     </div>
                     <ul class="d-flex align-items-center socialmedia list-unstyled gap-2 mb-0">
@@ -110,4 +110,13 @@
 
     </div>
 </footer>
+<div class="container-fluid bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center pb-2">
+                <div class="copyrytTxt">MSME PROMOTION COUNCIL <span> © 2022 CREATED BY </span>IMG Global Infotech</div>
+            </div>
+        </div>
+    </div>
+</div>
 {{-- footer end --}}
