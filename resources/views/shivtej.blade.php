@@ -253,7 +253,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                     
                         </div>
                     </div>
                     {{-- <div class="col-lg-4 ps-lg-5">
