@@ -30,9 +30,9 @@
     </div>
 </div>
 <!-- page heading section end -->
-<div class="container-fluid aboutUs pt-4 pt-md-5">
-    <div class="container">
-        <div class="row gap-5">
+<div class="container-fluid aboutUs py-4 py-md-5">
+    <div class="container position-relative">
+        <div class="row ">
             {{-- <div class="col-sm-12 text-center">
                 <div class="common-heading ">
                     <div><span>About Us</span> </div>

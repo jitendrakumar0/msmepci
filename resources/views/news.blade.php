@@ -21,7 +21,7 @@
                     <nav aria-label="breadcrumb" class="headingBreadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item headingTitle"><a href="index.html" class="text-decoration-none">Home</a></li>
-                            <li class="breadcrumb-item headingTitle active" aria-current="page">About  Us</li>
+                            <li class="breadcrumb-item headingTitle active" aria-current="page">News</li>
                         </ol>
                     </nav>
                 </div>
