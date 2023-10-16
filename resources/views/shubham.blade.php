@@ -248,20 +248,20 @@
     {{-- gallary Page Ends --}}
 
     {{-- blog Section Start --}}
-    <div class="container-fluid blogSectionMain">
-        <div class="row">
-            <div class="col-12 px-0">
-                <div class="upperBack">
-                    <div class="text d-flex align-items-center justify-content-center h-100">
-                        <div class="name">
-                            Blog
+        <div class="container-fluid blogSectionMain">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="upperBack">
+                        <div class="text d-flex align-items-center justify-content-center h-100">
+                            <div class="name">
+                                Blog
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    {{-- <div class="container-fluid blogSection  py-4 py-sm-5">
+        {{-- <div class="container-fluid blogSection  py-4 py-sm-5">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-12 col-sm-6 col-lg-3">
@@ -370,7 +370,8 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+        </div> --}}
+    {{-- blog Section Ends --}}
 
     {{-- another Card start --}}
         <div class="container-fluid blogsectionSecond py-5">
