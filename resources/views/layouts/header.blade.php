@@ -56,18 +56,18 @@
                 <img src="{{ url('public/assets/img/navbar/topbar3.png')}}" alt="india 2023" class="h-100 w-100 img-fluid">
             </a>
         </div>
-        <div class="flex-grow-1 mx-sm-4 mx-3 d-xl-none d-block">
-            {{-- <div class="searchinput border bg-light d-flex align-items-center rounded-1">
+        {{-- <div class="flex-grow-1 mx-sm-4 mx-3 d-xl-none d-block">
+            <div class="searchinput border bg-light d-flex align-items-center rounded-1">
                 <input type="search" class="form-control h-100 searchinput shadow-none bg-transparent border-0 rounded-0" placeholder="Search for pages">
                 <button class="btn searchbtn border-0 fw-medium h-100">Search</button>
-            </div> --}}
+            </div>
             <div class="searchinput border bg-light d-flex align-items-center rounded-1">
                 <input type="search" class="form-control pe-0 h-100 searchinput shadow-none bg-transparent border-0 rounded-0" placeholder="Search for pages">
                 <button class="btn searchbtn border-0 fw-medium h-100 d-flex align-items-center justify-content-center">
                     <img src="{{ url('public/assets/img/navbar/search2.svg')}}" alt="search" class="h-100 w-100 img-fluid">
                 </button>
             </div>
-        </div>
+        </div> --}}
         <div class="d-xl-none d-flex align-items-center gap-3">
             {{-- <button class="navbar-toggler menubtn shadow-none border-0 p-0 d-flex align-items-center justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchoffcanvas" aria-controls="searchoffcanvas" aria-label="Toggle navigation">
                 <img src="{{ url('public/assets/img/navbar/search.svg')}}" alt="menu" class="h-100 w-100 img-fluid">

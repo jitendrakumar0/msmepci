@@ -11,7 +11,7 @@
 
 
 @section('content')
-<div class="container-fluid headingSection contactheading position-relative">
+<div class="container-fluid headingSection contactheading blogSection position-relative">
     <div class="h-100 d-flex align-items-center position-relative z-1">
         <div class="container">
             <div class="row">
