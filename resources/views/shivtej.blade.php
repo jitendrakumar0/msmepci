@@ -124,14 +124,14 @@
   <div class="container-fluid  newsSectionStart">
     <div class="container">
         <div class="row gap-lg-4  gap-3">
-            <div class="col-12">
-                <div class="heading text-center ">MSME NEWS</div>
+            <div class="col-12 ">
+                <div class="mainHeading text-center ">MSME NEWS</div>
             </div>
             <div class="col-12">
-                <div class="row gap-lg-0 gap-4">
-                    <div class="col-lg-6 ">
-                        <div class="row ">
-                            <div class="col-lg-11 mx-auto  tableSection table-responsive">
+                <div class="row gap-lg-0 gap-4 mx-0">
+                    <div class="col-lg-6 px-lg-1 px-0">
+                        <div class="row  ">
+                            <div class="col-lg-11  mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
@@ -191,9 +191,9 @@
                      
                         </div>
                     </div>
-                    <div class="col-lg-6 ">
+                    <div class="col-lg-6 px-lg-1 px-0 ">
                         <div class="row ">
-                            <div class="col-lg-11 mx-auto  tableSection table-responsive">
+                            <div class="col-lg-11  mx-auto  tableSection table-responsive">
                                 <table class="table table-hover tableSectionDesign w-100 text-nowrap">
                                     {{-- <thead>
                                         <tr>
@@ -586,7 +586,7 @@
     {{-- what msme section end  --}}
 
 
-    <div class="container-fluid whatmsmeSection">
+    <div class="container-fluid whatmsmeSection py-md-5 py-4">
         <div class="container">
             <div class="row gap-md-5 gap-4">
                 <div class="col-12">
@@ -604,7 +604,7 @@
                                         <img src="{{ url('public/assets/img/micro.jpg')}}" alt="image" class="img-fluid w-100 h-100" />
                                     </div>
                                 </div>
-                                <div class="cardContent">
+                                <div class="cardContent  px-3">
                                     <div class="cardHeading my-2">Micro</div>
                                     <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div>
                                     {{-- <div class="content">Not more than Rs.1 crore and Annual Turnover ; not more than Rs. 5 crore</div> --}}
@@ -630,7 +630,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 px-0 order-sm-3 order-2">
+                        <div class="col-lg-4 col-sm-6 px-0 order-sm-3 order-2 d-lg-block d-none">
                             <div class="msmeCardWhat">
                                 <div class=" card-header">
                                     <div class="cardImg">
@@ -641,6 +641,24 @@
                                     <div class="cardHeading my-2">Medium</div>
                                     <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
                                     {{-- <div class="content">Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12  px-0 order-sm-3 order-2 d-lg-none d-block">
+                            <div class="msmeCardWhat">
+                                <div class="row mx-0">
+                                    <div class="col-sm-6 px-0">
+                                        <div class="cardImg">
+                                            <img src="{{ url('public/assets/img/medium.png')}}" alt="image" class="img-fluid w-100 h-100" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 px-0">
+                                        <div class="cardContent px-sm-3">
+                                            <div class="cardHeading my-2">Medium</div>
+                                            <div class="content">Investment in Plant and Machinery or Equipment: Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div>
+                                            {{-- <div class="content">Not more than Rs.50 crore and Annual Turnover ; not more than Rs. 250 crore</div> --}}
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
