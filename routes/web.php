@@ -57,3 +57,7 @@ Route::get('/whatsmsme', function () {
     return view('whatsmsme');
 })->name('whatsmsme');;
 
+Route::get('/upcomingEvent', function () {
+    return view('upcomingEvent');
+})->name('upcomingEvent');;
+
