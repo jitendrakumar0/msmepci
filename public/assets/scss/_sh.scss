@@ -921,3 +921,169 @@
         }
     }
 }
+
+
+// video play 
+
+.videoPlay{
+    & a{
+    margin: auto;
+    text-decoration: none;
+    z-index: 2;
+    color: #c6a87d;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 50%;
+    animation: ripple 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include sm{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        padding: 20px;
+
+    }
+    @include md{
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        padding: 30px;
+
+    }
+    }
+
+    @keyframes ripple {
+        0% {
+            -webkit-box-shadow: 0 0 0 0 rgba(6, 43, 250, 0.100), 0 0 0 5px rgba(6, 43, 250, 0.100), 0 0 0 20px rgba(6, 43, 250, 0.100), 0 0 0 35px rgba(6, 43, 250, 0.100);
+            box-shadow: 0 0 0 0 rgba(6, 43, 250, 0.100), 0 0 0 5px rgba(6, 43, 250, 0.100), 0 0 0 20px rgba(6, 43, 250, 0.100), 0 0 0 35px rgba(6, 43, 250, 0.100);
+        }
+    
+        100% {
+            -webkit-box-shadow: 0 0 0 5px rgba(6, 43, 250, 0.100), 0 0 0 20px rgba(6, 43, 250, 0.100), 0 0 0 35px rgba(6, 43, 250, 0.100), 0 0 0 45px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 5px rgba(6, 43, 250, 0.100), 0 0 0 20px rgba(6, 43, 250, 0.100), 0 0 0 35px rgba(6, 43, 250, 0.100), 0 0 0 45px rgba(255, 255, 255, 0);
+        }
+    
+    }
+}
+
+// event card 
+
+.cardSevensection{
+    & .mainCard{
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+     
+        @include sm{
+            &:hover{
+                & .cardImg{
+                    & img{
+                        // transform: scale(1.1);
+                        transform: scale3d(1.2,1.2,1);
+                        transition: transform 3s ease-in-out;
+                    }
+                }
+                & .cardContent{
+                    & .cardHeading{
+                        color: $theme2;
+                    }
+                }
+    
+            }
+        }
+        & .cardImg{
+            overflow: hidden;
+            height: 180px;
+         
+            @include md{
+            height: 200px;
+
+            }
+            @include xl{
+            height: 250px;
+
+            }
+            & img{
+                overflow: hidden;
+                transition: all 0.5s ease-in-out;
+                object-fit: cover;
+                
+            }
+        }
+        & .cardContent{
+            padding: 5px 15px 15px 15px;
+            @include xxl{
+            padding: 0px 15px 10px 0px;
+
+            }
+            & .dateTime{
+                font-size: 14px;
+                font-weight: 500;
+                opacity: 0.7;
+                padding-bottom: 10px;
+                padding-top: 20px;
+            }
+           
+            & .cardHeading{
+                font-size: 17px;
+                font-weight: 600;
+                transition: all .3s ease-in-out;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                // padding-top: 10px;
+                @include sm{
+                    font-size: 18px;
+                }
+                @include md{
+                    font-size: 20px;
+                }
+            }
+            & .cardPera{
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            & .readBtn{
+                font-size: 12px;
+                font-weight: 600;
+                color: $theme1;
+                transition: all 0.3s ease-in-out;
+                width: fit-content;
+                @include sm{
+                    font-size: 14px;
+    
+                    &:hover{
+                        & .readIcon{
+                            transform:translateX(5px);
+                        }
+                    }
+                }
+                & .readIcon{
+                    width: 18px;
+                    height: 18px;
+                    margin-left: 2px;
+                    transition: all 0.3s ease-in-out;
+                    @include sm{
+                        width: 20px;
+                        height: 20px;
+                    }
+    
+                }
+            }
+        }
+       
+    }
+}

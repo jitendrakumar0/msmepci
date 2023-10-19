@@ -246,6 +246,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <a href="{{route('whatsmsme')}}" class="col-12 mt-3">
+                            <button class="msmiBtn">Read More</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="col-xxl-6 col-lg-5 order-lg-2 order-1">
