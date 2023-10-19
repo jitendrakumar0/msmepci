@@ -40,6 +40,9 @@
                     <a class="nav-link navbarlink fw-medium" href="{{ route('blog') }}">Blog</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link navbarlink fw-medium" href="{{ route('upcomingEvent') }}">Upcoming Events</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
