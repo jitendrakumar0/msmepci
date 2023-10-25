@@ -19,31 +19,31 @@
             <div class="offcanvas-body">
             <ul class="navbar-nav navbaritem justify-content-center flex-grow-1 ps-xl-3">
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium active" aria-current="page" href="{{ route('index') }}">Home</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('index') ? 'active' : ''}}"  href="{{ route('index') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('about') }}">About Us</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('about') ? 'active' : ''}}" href="{{ route('about') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('whatsmsme') }}">Whats MSME</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('whatsmsme') ? 'active' : ''}}" href="{{ route('whatsmsme') }}">Whats MSME</a>
                 </li>
                 {{-- <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="">Schemes</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('news') }}">News</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('news') ? 'active' : ''}}" href="{{ route('news') }}">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('gallary') }}">Gallery</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('gallary') ? 'active' : ''}}" href="{{ route('gallary') }}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('blog') }}">Blog</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('blog') ? 'active' : ''}}" href="{{ route('blog') }}">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('upcomingEvent') }}">Upcoming Events</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('upcomingEvent') ? 'active' : ''}}" href="{{ route('upcomingEvent') }}">Upcoming Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navbarlink fw-medium" href="{{ route('contact') }}">Contact Us</a>
+                    <a class="nav-link navbarlink fw-medium {{Request::is('contact') ? 'active' : ''}}" href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>
             </div>
