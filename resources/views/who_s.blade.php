@@ -93,7 +93,7 @@
 <div class="container-fluid whoSection pb-md-5 pb-4">
     <div class="container">
         <div class="row">
-            <div class="col-lg-11 mx-auto">
+            <div class="col-lg-12 mx-auto">
                 <div class="row gap-4">
                     {{-- <div class="col-12">
                         <div class="row align-items-center">

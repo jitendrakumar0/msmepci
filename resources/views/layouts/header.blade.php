@@ -24,9 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium {{Request::is('about') ? 'active' : ''}}" href="{{ route('about') }}">About Us</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium {{Request::is('whatsmsme') ? 'active' : ''}}" href="{{ route('whatsmsme') }}">Whats MSME</a>
-                </li>
+                </li> --}}
                 {{-- <li class="nav-item">
                     <a class="nav-link navbarlink fw-medium" href="">Schemes</a>
                 </li> --}}
