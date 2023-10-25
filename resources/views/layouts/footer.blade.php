@@ -75,6 +75,9 @@
                         <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">About Us</a>
                     </li>
                     <li>
+                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Who's Who</a>
+                    </li>
+                    <li>
                         <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Privacy Policy</a>
                     </li>
                     <li>

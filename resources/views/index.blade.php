@@ -255,7 +255,7 @@
             </div>
             <div class="col-xxl-6 col-lg-5 order-lg-2 order-1">
                 <div class="aboutMsme">
-                    <img src="{{ url('public/assets/img/aboutmsme.svg')}}" alt="image" class="img-fluid w-100 h-100" />
+                    <img src="{{ url('public/assets/img/aboutmsmenew.svg')}}" alt="image" class="img-fluid w-100 h-100" />
                 </div>
             </div>
         </div>

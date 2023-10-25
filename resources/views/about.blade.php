@@ -41,8 +41,8 @@
 
             <div class="col-lg-11 mx-auto">
                 
-                <div class="ImgAbout rounded-2 overflow-hidden  position-relative">
-                    <img src="{{ url('public/assets/img/aboutus.webp')}}" alt="about us" class=" img-fluid w-100 h-100">
+                <div class="ImgAbout rounded-2 overflow-hidden  position-relative z-3" >
+                    <img src="{{ url('public/assets/img/aboutman.png')}}" alt="about us" class=" img-fluid w-100 h-100">
 
                     <div class="videoPlay">
                         <a href="https://www.youtube.com/watch?v=ZqJZyxVdLZA&amp;list=RDGMEM916WJxafRUGgOvd6dVJkeQ&amp;index=7" class="text-decoration-none d-flex align-items-center justify-content-center glightboxx ">

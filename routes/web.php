@@ -61,3 +61,7 @@ Route::get('/upcomingEvent', function () {
     return view('upcomingEvent');
 })->name('upcomingEvent');;
 
+Route::get('/who_s', function () {
+    return view('who_s');
+})->name('who_s');;
+

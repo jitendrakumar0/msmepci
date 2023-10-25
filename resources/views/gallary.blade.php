@@ -52,32 +52,32 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="row h-100 g-4">
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-02.jpg')}}" class=" GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-02.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga1.jpg')}}" class=" GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga1.jpg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-03.jpg')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-03.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/g-21.jpeg')}}" class=" glightImg GLightbox gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/g-21.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                             <div class="col-12">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-04.jpg')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-04.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga2.jpeg')}}" class=" glightImg GLightbox gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga2.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 ">
-                        <a href="{{ url('public/assets/img/gallaryimg/g-01.jpg')}}" class=" glightImg GLightbox gallary d-block h-100">
-                            <img src="{{ url('public/assets/img/gallaryimg/g-01.jpg')}}" alt="image" class="rounded-3" />
+                        <a href="{{ url('public/assets/img/aboutman.png')}}" class=" glightImg GLightbox gallary d-block h-100">
+                            <img src="{{ url('public/assets/img/aboutman.png')}}" alt="image" class="rounded-3" />
                         </a>
                     </div>
                     <div class="col-lg-4 ">
                         <div class="row h-100 g-4">
                             <div class="col-12">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-05.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-05.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga5.jpeg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga5.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                             <div class="col-6 galleryBox">
@@ -86,8 +86,8 @@
                                 </a>
                             </div>
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-07.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-07.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga6.jpeg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga6.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                         </div>
@@ -104,13 +104,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="row h-100 g-4">
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-08.jpg')}}" class=" GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-08.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga8.jpeg')}}" class=" GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga8.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-09.jpg')}}" class=" glightImg GLightbox gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-09.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga10.jpg')}}" class=" glightImg GLightbox gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga10.jpg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                             <div class="col-12">
@@ -133,8 +133,8 @@
                                 </a>
                             </div>
                             <div class="col-6 galleryBox">
-                                <a href="{{ url('public/assets/img/gallaryimg/g-14.jpg')}}" class="glightbox GLightbox glightImg gallary d-block">
-                                    <img src="{{ url('public/assets/img/gallaryimg/g-14.jpg')}}" alt="image" class="rounded-3" />
+                                <a href="{{ url('public/assets/img/gallaryimg/ga11.jpeg')}}" class="glightbox GLightbox glightImg gallary d-block">
+                                    <img src="{{ url('public/assets/img/gallaryimg/ga11.jpeg')}}" alt="image" class="rounded-3" />
                                 </a>
                             </div>
                         </div>
@@ -182,8 +182,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 ">
-                        <a href="{{ url('public/assets/img/gallaryimg/g-18.jpg')}}" class=" glightImg GLightbox gallary d-block h-100">
-                            <img src="{{ url('public/assets/img/gallaryimg/g-18.jpg')}}" alt="image" class="rounded-3" />
+                        <a href="{{ url('public/assets/img/gallaryimg/g-22.jpeg')}}" class=" glightImg GLightbox gallary d-block h-100">
+                            <img src="{{ url('public/assets/img/gallaryimg/g-22.jpeg')}}" alt="image" class="rounded-3" />
                         </a>
                     </div>
                 </div>
