@@ -32,7 +32,7 @@
 <!-- page heading section end -->
 
 {{-- who's section start  --}}
-<div class=" container-fluid contactUs whoSection py-5">
+<div class=" container-fluid contactUs whoSection py-md-5 py-4">
     <div class="container">
         <div class="row gap-lg-0 gap-4">
             <div class="col-lg-6 col-12 ">
@@ -90,7 +90,7 @@
     </div>
 </div>
 
-<div class="container-fluid whoSection py-5">
+<div class="container-fluid whoSection pb-md-5 pb-4">
     <div class="container">
         <div class="row">
             <div class="col-lg-11 mx-auto">

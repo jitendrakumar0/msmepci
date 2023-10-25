@@ -56,7 +56,7 @@
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
                     <li>
-                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Contact Us</a>
+                        <a href="{{ route('contact') }}" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Contact Us</a>
                     </li>
                     <li>
                         <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Help</a>
@@ -72,16 +72,16 @@
                 </div>
                 <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
                     <li>
-                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">About Us</a>
+                        <a href="{{ route('about') }}" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">About Us</a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Who's Who</a>
+                        <a href="{{ route('who_s') }}" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Who's Who</a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Privacy Policy</a>
+                        <a href="{{ route('blog') }}" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Blog</a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Services</a>
+                        <a href="{{ route('upcomingEvent') }}" class="text-decoration-none footerlink fw-medium d-inline-flex position-relative">Upcoming Event</a>
                     </li>
                 </ul>
             </div>
